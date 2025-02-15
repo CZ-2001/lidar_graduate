@@ -1,0 +1,4 @@
+source;share/n10_lidar_driver/local_setup.bash
+source;share/n10_lidar_driver/local_setup.dsv
+source;share/n10_lidar_driver/local_setup.sh
+source;share/n10_lidar_driver/local_setup.zsh

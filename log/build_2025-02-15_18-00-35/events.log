@@ -1,0 +1,565 @@
+[0.000000] (-) TimerEvent: {}
+[0.000625] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.000678] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs')])}
+[0.000712] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.012861] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.014466] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.014660] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c9bcbfc319036d9c.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1115'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1279'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:18847'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1235,unix/ubuntu:/tmp/.ICE-unix/1235'), ('INVOCATION_ID', '0ce1be8e7dbc412685681e86bc832cf2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6I0D22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5a1d4303ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs::/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.099517] (-) TimerEvent: {}
+[0.101893] (lslidar_msgs) StdoutLine: {'line': b'[ 11%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[0.106135] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__cpp\n'}
+[0.141047] (lslidar_msgs) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[0.141934] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[0.152807] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.154054] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[0.154317] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.159891] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.163479] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[0.199685] (-) TimerEvent: {}
+[0.211738] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[0.270274] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[0.299847] (-) TimerEvent: {}
+[0.320511] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[0.365764] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.374069] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[0.376777] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.400017] (-) TimerEvent: {}
+[0.432796] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.434086] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[0.434802] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[0.435404] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[0.440188] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[0.440952] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[0.500244] (-) TimerEvent: {}
+[0.507921] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[0.541210] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[0.542416] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[0.564288] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs'], 'cwd': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c9bcbfc319036d9c.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1115'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1279'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:18847'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1235,unix/ubuntu:/tmp/.ICE-unix/1235'), ('INVOCATION_ID', '0ce1be8e7dbc412685681e86bc832cf2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6I0D22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5a1d4303ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs::/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.581109] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.581362] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[0.581439] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.581501] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.581579] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[0.581644] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[0.582017] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[0.582163] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.582238] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[0.582302] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[0.582364] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.582426] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[0.582564] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[0.582696] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[0.582776] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[0.582862] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[0.582939] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[0.583007] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[0.583077] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[0.583142] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[0.583206] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[0.583271] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[0.583334] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[0.583408] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[0.583470] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[0.583532] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[0.583669] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[0.583754] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[0.583833] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[0.584147] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[0.584279] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[0.584355] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[0.584429] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[0.584499] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[0.584590] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.584693] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.584956] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.585125] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585189] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585247] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585303] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585361] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585453] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.585519] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.585628] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.585724] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.585822] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[0.585889] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[0.585959] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[0.586068] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[0.586186] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.586384] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[0.586515] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[0.586614] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[0.586681] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[0.586752] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[0.586863] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[0.586928] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[0.586992] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[0.587068] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[0.587160] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[0.587293] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[0.587448] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[0.587928] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[0.588186] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[0.588269] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[0.588338] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[0.588404] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[0.588471] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[0.588536] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[0.588636] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[0.588768] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[0.588829] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.588887] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.588943] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.588998] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.589054] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.589111] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[0.589167] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.589225] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.589279] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.589345] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.589400] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.589456] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.589512] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.589591] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.589664] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.589730] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.589795] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[0.589900] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[0.589986] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[0.590054] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[0.590124] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[0.590186] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[0.590247] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[0.590319] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[0.590389] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[0.590466] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[0.590535] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.590630] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[0.590702] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[0.590772] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[0.590843] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[0.590912] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[0.590979] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[0.591038] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591097] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591158] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591219] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591288] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[0.591347] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[0.591406] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591469] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[0.591528] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.591612] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[0.591672] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[0.591729] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[0.591786] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info\n'}
+[0.592138] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.592229] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[0.592296] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.592361] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[0.592424] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs\n'}
+[0.592484] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[0.592570] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.592656] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.592731] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg\n'}
+[0.592800] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[0.592873] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[0.592941] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[0.593000] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[0.593059] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[0.593120] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[0.593188] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[0.593366] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[0.593460] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[0.593539] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[0.593662] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[0.593731] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.593785] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.593838] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.593931] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.593995] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[0.600374] (-) TimerEvent: {}
+[0.648916] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[0.649182] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[0.654480] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.654782] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.655205] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.655860] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[0.656201] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[0.656328] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[0.656439] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[0.656748] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[0.656962] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[0.657217] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[0.657741] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[0.657811] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[0.657902] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[0.661713] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[0.661771] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[0.661820] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[0.661866] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[0.661912] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[0.661954] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[0.661998] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[0.662042] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[0.662085] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[0.662129] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[0.662182] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[0.662227] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[0.662272] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[0.662316] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[0.662359] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.662430] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.662479] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.662524] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.662584] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.662629] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.662673] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.662721] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.662765] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.662809] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.662854] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.662898] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.662942] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.662985] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.663028] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.663071] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.663113] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.663156] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.663302] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.663373] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.663428] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.663481] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.663533] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.663715] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[0.663853] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[0.663914] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[0.664306] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[0.686225] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[0.688665] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[0.700511] (-) TimerEvent: {}
+[0.703019] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[0.704155] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[0.704574] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c9bcbfc319036d9c.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1115'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1279'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:18847'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1235,unix/ubuntu:/tmp/.ICE-unix/1235'), ('INVOCATION_ID', '0ce1be8e7dbc412685681e86bc832cf2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6I0D22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5a1d4303ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.800727] (-) TimerEvent: {}
+[0.814882] (lslidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_driver_node\x1b[0m\n'}
+[0.871611] (lslidar_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[0.900920] (-) TimerEvent: {}
+[1.001518] (-) TimerEvent: {}
+[1.102156] (-) TimerEvent: {}
+[1.202740] (-) TimerEvent: {}
+[1.303765] (-) TimerEvent: {}
+[1.404249] (-) TimerEvent: {}
+[1.504930] (-) TimerEvent: {}
+[1.605493] (-) TimerEvent: {}
+[1.706141] (-) TimerEvent: {}
+[1.806689] (-) TimerEvent: {}
+[1.907476] (-) TimerEvent: {}
+[2.008155] (-) TimerEvent: {}
+[2.108983] (-) TimerEvent: {}
+[2.209714] (-) TimerEvent: {}
+[2.310367] (-) TimerEvent: {}
+[2.410968] (-) TimerEvent: {}
+[2.511490] (-) TimerEvent: {}
+[2.612159] (-) TimerEvent: {}
+[2.712876] (-) TimerEvent: {}
+[2.813453] (-) TimerEvent: {}
+[2.914120] (-) TimerEvent: {}
+[3.014718] (-) TimerEvent: {}
+[3.115331] (-) TimerEvent: {}
+[3.215991] (-) TimerEvent: {}
+[3.316697] (-) TimerEvent: {}
+[3.417362] (-) TimerEvent: {}
+[3.518043] (-) TimerEvent: {}
+[3.618655] (-) TimerEvent: {}
+[3.719355] (-) TimerEvent: {}
+[3.820207] (-) TimerEvent: {}
+[3.920879] (-) TimerEvent: {}
+[4.021465] (-) TimerEvent: {}
+[4.122327] (-) TimerEvent: {}
+[4.222842] (-) TimerEvent: {}
+[4.323659] (-) TimerEvent: {}
+[4.424303] (-) TimerEvent: {}
+[4.525005] (-) TimerEvent: {}
+[4.626175] (-) TimerEvent: {}
+[4.726774] (-) TimerEvent: {}
+[4.827367] (-) TimerEvent: {}
+[4.928365] (-) TimerEvent: {}
+[5.029085] (-) TimerEvent: {}
+[5.129695] (-) TimerEvent: {}
+[5.230307] (-) TimerEvent: {}
+[5.330999] (-) TimerEvent: {}
+[5.431704] (-) TimerEvent: {}
+[5.532288] (-) TimerEvent: {}
+[5.632992] (-) TimerEvent: {}
+[5.733507] (-) TimerEvent: {}
+[5.834213] (-) TimerEvent: {}
+[5.934862] (-) TimerEvent: {}
+[6.035427] (-) TimerEvent: {}
+[6.136121] (-) TimerEvent: {}
+[6.237746] (-) TimerEvent: {}
+[6.338233] (-) TimerEvent: {}
+[6.438889] (-) TimerEvent: {}
+[6.539476] (-) TimerEvent: {}
+[6.640255] (-) TimerEvent: {}
+[6.740933] (-) TimerEvent: {}
+[6.841608] (-) TimerEvent: {}
+[6.942104] (-) TimerEvent: {}
+[7.042541] (-) TimerEvent: {}
+[7.143709] (-) TimerEvent: {}
+[7.244411] (-) TimerEvent: {}
+[7.345118] (-) TimerEvent: {}
+[7.445679] (-) TimerEvent: {}
+[7.546261] (-) TimerEvent: {}
+[7.646993] (-) TimerEvent: {}
+[7.747655] (-) TimerEvent: {}
+[7.848237] (-) TimerEvent: {}
+[7.948932] (-) TimerEvent: {}
+[8.049614] (-) TimerEvent: {}
+[8.150253] (-) TimerEvent: {}
+[8.250784] (-) TimerEvent: {}
+[8.351455] (-) TimerEvent: {}
+[8.452096] (-) TimerEvent: {}
+[8.552463] (-) TimerEvent: {}
+[8.652924] (-) TimerEvent: {}
+[8.753713] (-) TimerEvent: {}
+[8.854247] (-) TimerEvent: {}
+[8.954918] (-) TimerEvent: {}
+[9.056214] (-) TimerEvent: {}
+[9.156884] (-) TimerEvent: {}
+[9.257890] (-) TimerEvent: {}
+[9.358483] (-) TimerEvent: {}
+[9.459092] (-) TimerEvent: {}
+[9.559987] (-) TimerEvent: {}
+[9.660588] (-) TimerEvent: {}
+[9.761097] (-) TimerEvent: {}
+[9.861686] (-) TimerEvent: {}
+[9.962331] (-) TimerEvent: {}
+[10.062854] (-) TimerEvent: {}
+[10.163518] (-) TimerEvent: {}
+[10.264194] (-) TimerEvent: {}
+[10.365090] (-) TimerEvent: {}
+[10.466022] (-) TimerEvent: {}
+[10.567047] (-) TimerEvent: {}
+[10.668215] (-) TimerEvent: {}
+[10.768991] (-) TimerEvent: {}
+[10.869733] (-) TimerEvent: {}
+[10.970512] (-) TimerEvent: {}
+[11.071185] (-) TimerEvent: {}
+[11.171988] (-) TimerEvent: {}
+[11.272544] (-) TimerEvent: {}
+[11.373284] (-) TimerEvent: {}
+[11.473987] (-) TimerEvent: {}
+[11.574668] (-) TimerEvent: {}
+[11.675298] (-) TimerEvent: {}
+[11.776037] (-) TimerEvent: {}
+[11.876613] (-) TimerEvent: {}
+[11.977247] (-) TimerEvent: {}
+[12.078100] (-) TimerEvent: {}
+[12.178672] (-) TimerEvent: {}
+[12.279658] (-) TimerEvent: {}
+[12.380202] (-) TimerEvent: {}
+[12.480931] (-) TimerEvent: {}
+[12.581854] (-) TimerEvent: {}
+[12.683035] (-) TimerEvent: {}
+[12.783601] (-) TimerEvent: {}
+[12.884201] (-) TimerEvent: {}
+[12.985052] (-) TimerEvent: {}
+[13.085930] (-) TimerEvent: {}
+[13.186430] (-) TimerEvent: {}
+[13.287065] (-) TimerEvent: {}
+[13.387684] (-) TimerEvent: {}
+[13.488457] (-) TimerEvent: {}
+[13.589268] (-) TimerEvent: {}
+[13.689910] (-) TimerEvent: {}
+[13.790529] (-) TimerEvent: {}
+[13.891225] (-) TimerEvent: {}
+[13.992444] (-) TimerEvent: {}
+[14.093250] (-) TimerEvent: {}
+[14.194194] (-) TimerEvent: {}
+[14.297219] (-) TimerEvent: {}
+[14.397968] (-) TimerEvent: {}
+[14.498402] (-) TimerEvent: {}
+[14.599083] (-) TimerEvent: {}
+[14.699866] (-) TimerEvent: {}
+[14.800579] (-) TimerEvent: {}
+[14.901047] (-) TimerEvent: {}
+[15.001727] (-) TimerEvent: {}
+[15.102340] (-) TimerEvent: {}
+[15.203302] (-) TimerEvent: {}
+[15.304107] (-) TimerEvent: {}
+[15.407169] (-) TimerEvent: {}
+[15.507679] (-) TimerEvent: {}
+[15.608353] (-) TimerEvent: {}
+[15.711259] (-) TimerEvent: {}
+[15.812878] (-) TimerEvent: {}
+[15.913886] (-) TimerEvent: {}
+[16.014789] (-) TimerEvent: {}
+[16.115767] (-) TimerEvent: {}
+[16.216944] (-) TimerEvent: {}
+[16.318217] (-) TimerEvent: {}
+[16.421090] (-) TimerEvent: {}
+[16.521743] (-) TimerEvent: {}
+[16.622708] (-) TimerEvent: {}
+[16.723212] (-) TimerEvent: {}
+[16.823963] (-) TimerEvent: {}
+[16.924419] (-) TimerEvent: {}
+[17.025059] (-) TimerEvent: {}
+[17.125519] (-) TimerEvent: {}
+[17.225998] (-) TimerEvent: {}
+[17.326659] (-) TimerEvent: {}
+[17.427208] (-) TimerEvent: {}
+[17.527939] (-) TimerEvent: {}
+[17.628503] (-) TimerEvent: {}
+[17.729229] (-) TimerEvent: {}
+[17.829744] (-) TimerEvent: {}
+[17.930358] (-) TimerEvent: {}
+[18.030999] (-) TimerEvent: {}
+[18.131697] (-) TimerEvent: {}
+[18.232253] (-) TimerEvent: {}
+[18.332897] (-) TimerEvent: {}
+[18.433420] (-) TimerEvent: {}
+[18.534066] (-) TimerEvent: {}
+[18.634833] (-) TimerEvent: {}
+[18.735369] (-) TimerEvent: {}
+[18.836210] (-) TimerEvent: {}
+[18.937527] (-) TimerEvent: {}
+[19.038061] (-) TimerEvent: {}
+[19.139066] (-) TimerEvent: {}
+[19.239638] (-) TimerEvent: {}
+[19.340364] (-) TimerEvent: {}
+[19.441203] (-) TimerEvent: {}
+[19.541704] (-) TimerEvent: {}
+[19.642457] (-) TimerEvent: {}
+[19.743283] (-) TimerEvent: {}
+[19.844011] (-) TimerEvent: {}
+[19.945312] (-) TimerEvent: {}
+[20.046049] (-) TimerEvent: {}
+[20.146672] (-) TimerEvent: {}
+[20.247977] (-) TimerEvent: {}
+[20.348947] (-) TimerEvent: {}
+[20.449926] (-) TimerEvent: {}
+[20.550715] (-) TimerEvent: {}
+[20.651689] (-) TimerEvent: {}
+[20.752529] (-) TimerEvent: {}
+[20.853471] (-) TimerEvent: {}
+[20.954411] (-) TimerEvent: {}
+[21.055250] (-) TimerEvent: {}
+[21.156605] (-) TimerEvent: {}
+[21.257083] (-) TimerEvent: {}
+[21.357940] (-) TimerEvent: {}
+[21.458718] (-) TimerEvent: {}
+[21.559246] (-) TimerEvent: {}
+[21.659866] (-) TimerEvent: {}
+[21.760691] (-) TimerEvent: {}
+[21.861434] (-) TimerEvent: {}
+[21.962054] (-) TimerEvent: {}
+[22.062669] (-) TimerEvent: {}
+[22.163668] (-) TimerEvent: {}
+[22.264353] (-) TimerEvent: {}
+[22.364766] (-) TimerEvent: {}
+[22.465285] (-) TimerEvent: {}
+[22.565972] (-) TimerEvent: {}
+[22.666642] (-) TimerEvent: {}
+[22.767500] (-) TimerEvent: {}
+[22.868289] (-) TimerEvent: {}
+[22.968958] (-) TimerEvent: {}
+[23.070125] (-) TimerEvent: {}
+[23.170934] (-) TimerEvent: {}
+[23.271288] (-) TimerEvent: {}
+[23.372049] (-) TimerEvent: {}
+[23.472638] (-) TimerEvent: {}
+[23.573170] (-) TimerEvent: {}
+[23.673860] (-) TimerEvent: {}
+[23.774516] (-) TimerEvent: {}
+[23.875233] (-) TimerEvent: {}
+[23.975893] (-) TimerEvent: {}
+[24.076835] (-) TimerEvent: {}
+[24.177496] (-) TimerEvent: {}
+[24.278092] (-) TimerEvent: {}
+[24.378698] (-) TimerEvent: {}
+[24.479302] (-) TimerEvent: {}
+[24.580070] (-) TimerEvent: {}
+[24.680692] (-) TimerEvent: {}
+[24.781333] (-) TimerEvent: {}
+[24.823064] (lslidar_driver) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[24.881572] (-) TimerEvent: {}
+[24.982225] (-) TimerEvent: {}
+[25.082839] (-) TimerEvent: {}
+[25.183394] (-) TimerEvent: {}
+[25.284061] (-) TimerEvent: {}
+[25.384629] (-) TimerEvent: {}
+[25.485667] (-) TimerEvent: {}
+[25.586131] (-) TimerEvent: {}
+[25.686793] (-) TimerEvent: {}
+[25.789642] (-) TimerEvent: {}
+[25.890074] (-) TimerEvent: {}
+[25.990692] (-) TimerEvent: {}
+[26.091240] (-) TimerEvent: {}
+[26.192046] (-) TimerEvent: {}
+[26.292743] (-) TimerEvent: {}
+[26.393412] (-) TimerEvent: {}
+[26.494195] (-) TimerEvent: {}
+[26.594780] (-) TimerEvent: {}
+[26.695419] (-) TimerEvent: {}
+[26.796072] (-) TimerEvent: {}
+[26.896634] (-) TimerEvent: {}
+[26.997329] (-) TimerEvent: {}
+[27.098283] (-) TimerEvent: {}
+[27.201977] (-) TimerEvent: {}
+[27.315313] (-) TimerEvent: {}
+[27.424382] (-) TimerEvent: {}
+[27.471028] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[27.524083] (-) TimerEvent: {}
+[27.598298] (lslidar_driver) CommandEnded: {'returncode': 0}
+[27.615495] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[27.627733] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver'], 'cwd': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ubuntu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c9bcbfc319036d9c.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1115'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1279'), ('BUNDLED_DEBUGPY_PATH', '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:18847'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1235,unix/ubuntu:/tmp/.ICE-unix/1235'), ('INVOCATION_ID', '0ce1be8e7dbc412685681e86bc832cf2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6I0D22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5a1d4303ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[27.645948] (-) TimerEvent: {}
+[27.678230] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.679429] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[27.680285] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[27.680680] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[27.680786] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[27.680938] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[27.681273] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[27.681369] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[27.681498] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[27.681929] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[27.682032] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[27.682107] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[27.682178] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params\n'}
+[27.682459] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2\n'}
+[27.682916] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[27.683110] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[27.683349] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[27.683578] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[27.683801] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2\n'}
+[27.684214] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[27.684738] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[27.684852] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[27.684931] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[27.685005] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[27.685078] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[27.686512] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[27.746148] (-) TimerEvent: {}
+[27.780857] (lslidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""\n'}
+[27.781251] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[27.781327] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[27.781529] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[27.781717] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[27.781784] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[27.781994] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[27.782058] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[27.782111] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[27.782163] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[27.782214] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[27.782264] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[27.783195] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[27.783386] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.783657] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.783790] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[27.783949] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[27.784134] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[27.792322] (lslidar_driver) CommandEnded: {'returncode': 0}
+[27.828485] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[27.835316] (-) EventReactorShutdown: {}

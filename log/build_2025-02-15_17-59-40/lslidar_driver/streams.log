@@ -1,0 +1,1391 @@
+[0.021s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver -- -j12 -l12
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[0.255s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[12.796s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In member function ‘[01m[Kbool lslidar_driver::LslidarDriver::loadParameters()[m[K’:
+[12.797s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:144:17:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[12.797s]   144 |                 [01;35m[K}[m[K
+[12.797s]       |                 [01;35m[K^[m[K
+[12.805s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[12.805s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:145:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ does not name a type
+[12.805s]   145 |                 [01;31m[Kcount_num[m[K = 0;
+[12.805s]       |                 [01;31m[K^~~~~~~~~[m[K
+[12.813s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:147:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ does not name a type; did you mean ‘[01m[KScanPoint[m[K’?
+[12.813s]   147 |                 [01;31m[Kscan_points_[m[K.resize(6000);
+[12.813s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[12.813s]       |                 [32m[KScanPoint[m[K
+[12.813s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:149:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[12.813s]   149 |                 [01;31m[Kif[m[K (lidar_name == "M10")
+[12.813s]       |                 [01;31m[K^~[m[K
+[12.813s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:160:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.813s]   160 |                 [01;31m[Kelse[m[K if (lidar_name == "M10_P")
+[12.813s]       |                 [01;31m[K^~~~[m[K
+[12.813s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:170:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.813s]   170 |                 [01;31m[Kelse[m[K if (lidar_name == "M10_PLUS")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.814s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:180:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.814s]   180 |                 [01;31m[Kelse[m[K if (lidar_name == "M10_GPS")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.814s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:190:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.814s]   190 |                 [01;31m[Kelse[m[K if (lidar_name == "N10")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.814s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:202:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.814s]   202 |                 [01;31m[Kelse[m[K if (lidar_name == "M10_DOUBLE")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.814s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:212:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.814s]   212 |                 [01;31m[Kelse[m[K if (lidar_name == "N10_P")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.814s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:224:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[12.814s]   224 |                 [01;31m[Kelse[m[K if (lidar_name == "L10")
+[12.814s]       |                 [01;31m[K^~~~[m[K
+[12.815s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.815s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[12.815s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:236:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+[12.815s]   236 |                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Lidar is " << lidar_name.c_str());
+[12.816s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.816s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:236:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[12.816s]   236 |                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Lidar is " << lidar_name.c_str());
+[12.816s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.816s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:238:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[12.816s]   238 |                 [01;31m[Kif[m[K (pubScan)
+[12.816s]       |                 [01;31m[K^~[m[K
+[12.816s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:240:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[12.816s]   240 |                 [01;31m[Kif[m[K (pubPointCloud2)
+[12.816s]       |                 [01;31m[K^~[m[K
+[12.825s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:242:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifop_switch[m[K’ does not name a type
+[12.825s]   242 |                 [01;31m[Kdifop_switch[m[K = this->create_subscription<std_msgs::msg::Int8>("lslidar_order", 1, std::bind(&LslidarDriver::lidar_order, this, std::placeholders::_1)); // 转速输入
+[12.825s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[12.825s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:243:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[12.825s]   243 |                 [01;31m[Kreturn[m[K true;
+[12.825s]       |                 [01;31m[K^~~~~~[m[K
+[12.825s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:246:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[12.825s]   246 |         void [01;31m[KLslidarDriver[m[K::lidar_difop()
+[12.825s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[12.840s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid lidar_difop()[m[K’:
+[12.840s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:248:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[12.840s]   248 |                 if ([01;31m[Klidar_name[m[K == "L10" || lidar_name == "N10" || lidar_name == "N10_P")
+[12.840s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[12.873s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:250:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface_selection[m[K’ was not declared in this scope
+[12.873s]   250 |                 if ([01;31m[Kinterface_selection[m[K == "net")
+[12.873s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[12.891s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:251:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsop_input_[m[K’ was not declared in this scope
+[12.891s]   251 |                         [01;31m[Kmsop_input_[m[K->UDP_difop();
+[12.891s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[12.903s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:264:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[12.903s]   264 |                                 int rtn = [01;31m[Kserial_[m[K->send((const char *)data, 188);
+[12.903s]       |                                           [01;31m[K^~~~~~~[m[K
+[12.903s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[12.903s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:274:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[12.903s]   274 |         void [01;31m[KLslidarDriver[m[K::lidar_order(const std_msgs::msg::Int8::SharedPtr msg)
+[12.903s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[12.921s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid lidar_order(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.921s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:276:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[12.921s]   276 |                 if ([01;31m[Klidar_name[m[K == "L10")
+[12.921s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[12.929s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:280:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[12.929s]   280 |                         [01;31m[Kis_start[m[K = false;
+[12.929s]       |                         [01;31m[K^~~~~~~~[m[K
+[12.929s]       |                         [32m[Kva_start[m[K
+[12.938s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:282:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[12.938s]   282 |                         [01;31m[Kis_start[m[K = true;
+[12.938s]       |                         [01;31m[K^~~~~~~~[m[K
+[12.938s]       |                         [32m[Kva_start[m[K
+[12.967s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:283:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface_selection[m[K’ was not declared in this scope
+[12.967s]   283 |                 if ([01;31m[Kinterface_selection[m[K == "net")
+[12.967s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[12.989s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:284:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsop_input_[m[K’ was not declared in this scope
+[12.989s]   284 |                         [01;31m[Kmsop_input_[m[K->UDP_order(*msg);
+[12.989s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[13.000s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:298:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.000s]   298 |                                 if ([01;31m[Klidar_name[m[K == "M10" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_DOUBLE")
+[13.000s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[13.009s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:309:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[13.009s]   309 |                                                 if ([01;31m[Kis_start[m[K)
+[13.010s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[13.010s]       |                                                     [32m[Kva_start[m[K
+[13.019s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:316:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[13.019s]   316 |                                                 if ([01;31m[Kis_start[m[K)
+[13.019s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[13.019s]       |                                                     [32m[Kva_start[m[K
+[13.028s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:323:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[13.028s]   323 |                                                 if ([01;31m[Kis_start[m[K)
+[13.029s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[13.029s]       |                                                     [32m[Kva_start[m[K
+[13.038s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:402:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.038s]   402 |                                 rtn = [01;31m[Kserial_[m[K->send((const char *)data, 188);
+[13.038s]       |                                       [01;31m[K^~~~~~~[m[K
+[13.048s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:410:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[13.048s]   410 |                                                 [01;31m[Kis_start[m[K = false;
+[13.048s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[13.048s]       |                                                 [32m[Kva_start[m[K
+[13.057s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:412:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[13.057s]   412 |                                                 [01;31m[Kis_start[m[K = true;
+[13.058s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[13.058s]       |                                                 [32m[Kva_start[m[K
+[13.058s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.058s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:420:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.058s]   420 |         void [01;31m[KLslidarDriver[m[K::open_serial()
+[13.058s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.070s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid open_serial()[m[K’:
+[13.070s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:422:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiagnostics[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiagnostic_msgs[m[K’?
+[13.071s]   422 |                 [01;31m[Kdiagnostics[m[K.setHardwareID("Lslidar");
+[13.071s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.071s]       |                 [32m[Kdiagnostic_msgs[m[K
+[13.087s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:424:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[13.087s]   424 |                 [01;31m[Kserial_port_[m[K = std::string("/dev/ttyUSB0");
+[13.087s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.089s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:425:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.089s]   425 |                 [01;31m[Kthis[m[K->declare_parameter<std::string>("serial_port_", "/dev/ttyUSB0");
+[13.089s]       |                 [01;31m[K^~~~[m[K
+[13.089s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:425:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[13.089s]   425 |                 this->declare_parameter<std::string[01;31m[K>[m[K("serial_port_", "/dev/ttyUSB0");
+[13.089s]       |                                                    [01;31m[K^[m[K
+[13.089s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:425:54:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.089s]   425 |                 this->declare_parameter<std::string>([01;35m[K"serial_port_"[m[K, "/dev/ttyUSB0");
+[13.089s]       |                                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.089s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:426:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.090s]   426 |                 [01;31m[Kthis[m[K->get_parameter("serial_port_", serial_port_);
+[13.090s]       |                 [01;31m[K^~~~[m[K
+[13.100s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:427:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.100s]   427 |                 [01;31m[Kserial_[m[K = LSIOSR::instance(serial_port_, baud_rate_);
+[13.101s]       |                 [01;31m[K^~~~~~~[m[K
+[13.101s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:427:27:[m[K [01;31m[Kerror: [m[K‘[01m[KLSIOSR[m[K’ has not been declared
+[13.101s]   427 |                 serial_ = [01;31m[KLSIOSR[m[K::instance(serial_port_, baud_rate_);
+[13.101s]       |                           [01;31m[K^~~~~~[m[K
+[13.118s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:427:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kbaud_rate_[m[K’ was not declared in this scope
+[13.118s]   427 |                 serial_ = LSIOSR::instance(serial_port_, [01;31m[Kbaud_rate_[m[K);
+[13.118s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[13.119s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.119s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:438:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.120s]   438 |         bool [01;31m[KLslidarDriver[m[K::createRosIO()
+[13.120s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.134s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kbool createRosIO()[m[K’:
+[13.135s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:440:17:[m[K [01;31m[Kerror: [m[K‘[01m[KUDP_PORT_NUMBER[m[K’ was not declared in this scope
+[13.135s]   440 |                 [01;31m[KUDP_PORT_NUMBER[m[K = 2368;
+[13.135s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.135s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:441:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.135s]   441 |                 [01;31m[Kthis[m[K->declare_parameter<int>("msop_port", 2368);
+[13.135s]       |                 [01;31m[K^~~~[m[K
+[13.135s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:441:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[13.136s]   441 |                 this->declare_parameter<[01;31m[Kint[m[K>("msop_port", 2368);
+[13.136s]       |                                         [01;31m[K^~~[m[K
+[13.136s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:442:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.136s]   442 |                 [01;31m[Kthis[m[K->get_parameter("msop_port", UDP_PORT_NUMBER);
+[13.136s]       |                 [01;31m[K^~~~[m[K
+[13.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.136s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.136s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.136s]   443 |                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.136s]       |                                    [01;31m[K^~~~[m[K
+[13.136s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.136s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.136s]   443 |                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.136s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.136s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.136s]   443 |                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.136s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.137s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.137s]   443 |                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.137s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.137s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.137s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.137s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.137s]   443 |                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.137s]       |                                    [01;31m[K^~~~[m[K
+[13.137s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:443:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.137s]   443 |                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening UDP socket: port " << UDP_PORT_NUMBER);
+[13.137s]       |                                    [01;31m[K^~~~[m[K
+[13.141s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:444:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdump_file[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+[13.141s]   444 |                 [01;31m[Kdump_file[m[K = std::string("");
+[13.141s]       |                 [01;31m[K^~~~~~~~~[m[K
+[13.141s]       |                 [32m[Ktmpfile[m[K
+[13.141s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:445:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.141s]   445 |                 [01;31m[Kthis[m[K->declare_parameter<std::string>("pcap", "");
+[13.142s]       |                 [01;31m[K^~~~[m[K
+[13.142s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:445:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[13.142s]   445 |                 this->declare_parameter<std::string[01;31m[K>[m[K("pcap", "");
+[13.142s]       |                                                    [01;31m[K^[m[K
+[13.142s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:445:54:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.142s]   445 |                 this->declare_parameter<std::string>([01;35m[K"pcap"[m[K, "");
+[13.142s]       |                                                      [01;35m[K^~~~~~[m[K
+[13.142s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:446:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.142s]   446 |                 [01;31m[Kthis[m[K->get_parameter("pcap", dump_file);
+[13.142s]       |                 [01;31m[K^~~~[m[K
+[13.150s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:448:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiagnostics[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiagnostic_msgs[m[K’?
+[13.150s]   448 |                 [01;31m[Kdiagnostics[m[K.setHardwareID("Lslidar");
+[13.150s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.150s]       |                 [32m[Kdiagnostic_msgs[m[K
+[13.161s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:451:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiag_max_freq[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiag_freq[m[K’?
+[13.161s]   451 |                 [01;31m[Kdiag_max_freq[m[K = diag_freq;
+[13.161s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[13.161s]       |                 [32m[Kdiag_freq[m[K
+[13.171s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:452:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiag_min_freq[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiag_freq[m[K’?
+[13.171s]   452 |                 [01;31m[Kdiag_min_freq[m[K = diag_freq;
+[13.172s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[13.172s]       |                 [32m[Kdiag_freq[m[K
+[13.172s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.172s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.172s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.172s]   453 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.172s]       |                             [01;31m[K^~~~[m[K
+[13.172s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.172s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.172s]   453 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.172s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.172s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.172s]   453 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.172s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.172s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.172s]   453 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.172s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.172s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.173s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.173s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.173s]   453 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.173s]       |                             [01;31m[K^~~~[m[K
+[13.173s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:453:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.173s]   453 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "expected frequency: %.3f (Hz)", diag_freq);
+[13.173s]       |                             [01;31m[K^~~~[m[K
+[13.181s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:456:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiag_topic[m[K’ was not declared in this scope
+[13.182s]   456 |                 [01;31m[Kdiag_topic[m[K.reset(new TopicDiagnostic(
+[13.182s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[13.194s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:462:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.194s]   462 |                 if ([01;31m[Klidar_name[m[K == "M10_P")
+[13.194s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.212s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:470:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsop_input_[m[K’ was not declared in this scope
+[13.212s]   470 |                         [01;31m[Kmsop_input_[m[K.reset(new lslidar_driver::InputPCAP(this, UDP_PORT_NUMBER, packet_rate, dump_file));
+[13.212s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[13.212s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:470:73:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.212s]   470 |                         msop_input_.reset(new lslidar_driver::InputPCAP([01;31m[Kthis[m[K, UDP_PORT_NUMBER, packet_rate, dump_file));
+[13.213s]       |                                                                         [01;31m[K^~~~[m[K
+[13.233s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:474:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsop_input_[m[K’ was not declared in this scope
+[13.233s]   474 |                         [01;31m[Kmsop_input_[m[K.reset(new lslidar_driver::InputSocket(this, UDP_PORT_NUMBER));
+[13.233s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[13.233s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:474:75:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.234s]   474 |                         msop_input_.reset(new lslidar_driver::InputSocket([01;31m[Kthis[m[K, UDP_PORT_NUMBER));
+[13.234s]       |                                                                           [01;31m[K^~~~[m[K
+[13.234s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.234s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:481:13:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.234s]   481 |         int [01;31m[KLslidarDriver[m[K::getScan(std::vector<ScanPoint> &points, rclcpp::Time &scan_time, float &scan_duration)
+[13.234s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[13.237s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:481:48:[m[K [01;31m[Kerror: [m[K‘[01m[KScanPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::ScanPoint[m[K’?
+[13.237s]   481 |         int LslidarDriver::getScan(std::vector<[01;31m[KScanPoint[m[K> &points, rclcpp::Time &scan_time, float &scan_duration)
+[13.237s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[13.237s]       |                                                [32m[Klslidar_driver::ScanPoint[m[K
+[13.237s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[13.237s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:57:3:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::ScanPoint[m[K’ declared here
+[13.237s]    57 | } [01;36m[KScanPoint[m[K;
+[13.237s]       |   [01;36m[K^~~~~~~~~[m[K
+[13.237s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:481:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.237s]   481 |         int LslidarDriver::getScan(std::vector<ScanPoint[01;31m[K>[m[K &points, rclcpp::Time &scan_time, float &scan_duration)
+[13.238s]       |                                                         [01;31m[K^[m[K
+[13.238s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:481:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[13.245s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kint getScan(int&, rclcpp::Time&, float&)[m[K’:
+[13.245s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:483:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+[13.246s]   483 |                 boost::unique_lock<boost::mutex> lock([01;31m[Kmutex_[m[K);
+[13.246s]       |                                                       [01;31m[K^~~~~~[m[K
+[13.246s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:484:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kassign[m[K’ in ‘[01m[Kpoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[13.246s]   484 |                 points.[01;31m[Kassign[m[K(scan_points_bak_.begin(), scan_points_bak_.end());
+[13.246s]       |                        [01;31m[K^~~~~~[m[K
+[13.273s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:484:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_bak_[m[K’ was not declared in this scope
+[13.273s]   484 |                 points.assign([01;31m[Kscan_points_bak_[m[K.begin(), scan_points_bak_.end());
+[13.273s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[13.279s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:485:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpre_time_[m[K’ was not declared in this scope
+[13.280s]   485 |                 scan_time = [01;31m[Kpre_time_[m[K;
+[13.280s]       |                             [01;31m[K^~~~~~~~~[m[K
+[13.286s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:486:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[13.286s]   486 |                 scan_duration = [01;31m[Ktime_[m[K.seconds() - pre_time_.seconds();
+[13.286s]       |                                 [01;31m[K^~~~~[m[K
+[13.286s]       |                                 [32m[Ktimex[m[K
+[13.286s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.286s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:490:18:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.286s]   490 |         uint64_t [01;31m[KLslidarDriver[m[K::get_gps_stamp(struct tm t)
+[13.286s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[13.286s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:497:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.287s]   497 |         bool [01;31m[KLslidarDriver[m[K::initialize()
+[13.287s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.300s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kbool initialize()[m[K’:
+[13.301s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:499:22:[m[K [01;31m[Kerror: [m[K‘[01m[KloadParameters[m[K’ was not declared in this scope
+[13.301s]   499 |                 if (![01;31m[KloadParameters[m[K())
+[13.301s]       |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.301s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.302s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.302s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.302s]   501 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot load all required ROS parameters...");
+[13.302s]       |                                      [01;31m[K^~~~[m[K
+[13.302s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.302s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.302s]   501 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot load all required ROS parameters...");
+[13.302s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.302s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.303s]   501 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot load all required ROS parameters...");
+[13.303s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.303s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.303s]   501 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot load all required ROS parameters...");
+[13.303s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.304s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.304s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.304s]   501 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot load all required ROS parameters...");
+[13.304s]       |                                      [01;31m[K^~~~[m[K
+[13.304s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:501:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.304s]   501 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot load all required ROS parameters...");
+[13.304s]       |                                      [01;31m[K^~~~[m[K
+[13.328s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:504:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface_selection[m[K’ was not declared in this scope
+[13.328s]   504 |                 if ([01;31m[Kinterface_selection[m[K == "net")
+[13.328s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.328s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.329s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.330s]   508 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot create all ROS IO...");
+[13.330s]       |                                              [01;31m[K^~~~[m[K
+[13.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.330s]   508 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot create all ROS IO...");
+[13.330s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.330s]   508 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot create all ROS IO...");
+[13.330s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.330s]   508 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot create all ROS IO...");
+[13.331s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.331s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.331s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.331s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.331s]   508 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot create all ROS IO...");
+[13.331s]       |                                              [01;31m[K^~~~[m[K
+[13.332s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:508:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.332s]   508 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot create all ROS IO...");
+[13.332s]       |                                              [01;31m[K^~~~[m[K
+[13.346s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:514:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kin_file_name[m[K’ was not declared in this scope
+[13.346s]   514 |                         [01;31m[Kin_file_name[m[K = std::string("");
+[13.347s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.347s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:515:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.347s]   515 |                         [01;31m[Kthis[m[K->declare_parameter<std::string>("in_file_name", "");
+[13.348s]       |                         [01;31m[K^~~~[m[K
+[13.348s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:515:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[13.349s]   515 |                         this->declare_parameter<std::string[01;31m[K>[m[K("in_file_name", "");
+[13.349s]       |                                                            [01;31m[K^[m[K
+[13.349s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:515:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[13.349s]   515 |                         this->declare_parameter<std::string>([01;35m[K"in_file_name"[m[K, "");
+[13.349s]       |                                                              [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.349s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:516:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.350s]   516 |                         [01;31m[Kthis[m[K->get_parameter("in_file_name", in_file_name);
+[13.350s]       |                         [01;31m[K^~~~[m[K
+[13.350s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.351s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.351s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.351s]   521 |                                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.351s]       |                                                    [01;31m[K^~~~[m[K
+[13.351s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.351s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.351s]   521 |                                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.351s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.351s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.351s]   521 |                                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.351s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.351s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.351s]   521 |                                 [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.352s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.352s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.352s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.352s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.352s]   521 |                                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.352s]       |                                                    [01;31m[K^~~~[m[K
+[13.352s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:521:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.352s]   521 |                                 RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Opening txt file " << in_file_name.c_str());
+[13.353s]       |                                                    [01;31m[K^~~~[m[K
+[13.353s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.353s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.353s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:54:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.353s]   525 |                                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot open the file");
+[13.353s]       |                                                      [01;31m[K^~~~[m[K
+[13.354s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:54:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.354s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.354s]   525 |                                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot open the file");
+[13.354s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.354s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.354s]   525 |                                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot open the file");
+[13.354s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.354s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.354s]   525 |                                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot open the file");
+[13.354s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.354s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.356s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.356s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:54:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.356s]   525 |                                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot open the file");
+[13.356s]       |                                                      [01;31m[K^~~~[m[K
+[13.356s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:525:54:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.356s]   525 |                                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot open the file");
+[13.356s]       |                                                      [01;31m[K^~~~[m[K
+[13.357s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.358s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.358s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.358s]   530 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Initialised lslidar without error");
+[13.358s]       |                             [01;31m[K^~~~[m[K
+[13.358s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.358s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.359s]   530 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initialised lslidar without error");
+[13.359s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.359s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.359s]   530 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initialised lslidar without error");
+[13.359s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.360s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.360s]   530 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initialised lslidar without error");
+[13.360s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[13.360s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.360s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.361s]   530 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Initialised lslidar without error");
+[13.361s]       |                             [01;31m[K^~~~[m[K
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:530:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.361s]   530 |                 RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Initialised lslidar without error");
+[13.361s]       |                             [01;31m[K^~~~[m[K
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:534:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.361s]   534 |         void [01;31m[KLslidarDriver[m[K::recvThread_crc(int &count, int &link_time)
+[13.361s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid recvThread_crc(int&, int&)[m[K’:
+[13.361s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:543:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.361s]   543 |                         [01;31m[Kserial_[m[K->close();
+[13.361s]       |                         [01;31m[K^~~~~~~[m[K
+[13.361s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.362s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.362s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.362s]   547 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "serial open fail");
+[13.362s]       |                                              [01;31m[K^~~~[m[K
+[13.362s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.362s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.362s]   547 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "serial open fail");
+[13.362s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.362s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.362s]   547 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "serial open fail");
+[13.362s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.362s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.362s]   547 |                                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "serial open fail");
+[13.362s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.362s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.363s]                  from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:30[m[K:
+[13.363s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.363s]   547 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "serial open fail");
+[13.363s]       |                                              [01;31m[K^~~~[m[K
+[13.363s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:547:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[13.363s]   547 |                                 RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "serial open fail");
+[13.363s]       |                                              [01;31m[K^~~~[m[K
+[13.363s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.364s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:554:13:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.364s]   554 |         int [01;31m[KLslidarDriver[m[K::receive_data(unsigned char *packet_bytes)
+[13.364s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[13.370s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kint receive_data(unsigned char*)[m[K’:
+[13.370s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:564:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.370s]   564 |                         count = [01;31m[Kserial_[m[K->read(packet_bytes, 1);
+[13.370s]       |                                 [01;31m[K^~~~~~~[m[K
+[13.370s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:565:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.370s]   565 |                         [01;31m[KLslidarDriver[m[K::recvThread_crc(count, link_time);
+[13.370s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[13.382s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:572:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.382s]   572 |                         count_2 = [01;31m[Kserial_[m[K->read(packet_bytes + count, 1);
+[13.382s]       |                                   [01;31m[K^~~~~~~[m[K
+[13.382s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:575:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.382s]   575 |                         [01;31m[KLslidarDriver[m[K::recvThread_crc(count_2, link_time);
+[13.383s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[13.395s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:583:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.395s]   583 |                         count_2 = [01;31m[Kserial_[m[K->read(packet_bytes + count, 2);
+[13.395s]       |                                   [01;31m[K^~~~~~~[m[K
+[13.395s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:586:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.395s]   586 |                         [01;31m[KLslidarDriver[m[K::recvThread_crc(count_2, link_time);
+[13.395s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[13.409s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:591:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.409s]   591 |                 if ([01;31m[Klidar_name[m[K == "M10")
+[13.409s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.423s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:605:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.423s]   605 |                 if ([01;31m[Klidar_name[m[K == "M10" || lidar_name == "M10_DOUBLE" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_PLUS")
+[13.423s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.435s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:612:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[13.435s]   612 |                         count_2 = [01;31m[Kserial_[m[K->read(packet_bytes + count, len - count);
+[13.435s]       |                                   [01;31m[K^~~~~~~[m[K
+[13.435s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:615:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.435s]   615 |                         [01;31m[KLslidarDriver[m[K::recvThread_crc(count_2, link_time);
+[13.435s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[13.449s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:617:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.449s]   617 |                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10" || lidar_name == "N10_P")
+[13.449s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.468s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:619:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKET_SIZE[m[K’ was not declared in this scope
+[13.468s]   619 |                         if (packet_bytes[[01;31m[KPACKET_SIZE[m[K - 1] != N10_CalCRC8(packet_bytes, PACKET_SIZE - 1))
+[13.468s]       |                                          [01;31m[K^~~~~~~~~~~[m[K
+[13.488s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:619:62:[m[K [01;31m[Kerror: [m[K‘[01m[KN10_CalCRC8[m[K’ was not declared in this scope
+[13.488s]   619 |                         if (packet_bytes[PACKET_SIZE - 1] != [01;31m[KN10_CalCRC8[m[K(packet_bytes, PACKET_SIZE - 1))
+[13.489s]       |                                                              [01;31m[K^~~~~~~~~~~[m[K
+[13.489s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.489s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:625:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.489s]   625 |         uint8_t [01;31m[KLslidarDriver[m[K::N10_CalCRC8(unsigned char *p, int len)
+[13.489s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[13.489s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:638:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.489s]   638 |         void [01;31m[KLslidarDriver[m[K::difop_processing(unsigned char *packet_bytes) // 处理设备包的数据
+[13.489s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.519s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid difop_processing(unsigned char*)[m[K’:
+[13.519s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:644:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree_compensation[m[K’ was not declared in this scope
+[13.519s]   644 |                 [01;31m[Kdegree_compensation[m[K = double(degree_temp * 256 + z) / 100.f;
+[13.519s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.540s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:647:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_compensation[m[K’ was not declared in this scope
+[13.540s]   647 |                 [01;31m[Kfirst_compensation[m[K = false;
+[13.540s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.540s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[13.540s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:652:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[13.541s]   652 |         void [01;31m[KLslidarDriver[m[K::data_processing(unsigned char *packet_bytes, int len) // 处理每一包的数据
+[13.541s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.561s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid data_processing(unsigned char*, int)[m[K’:
+[13.561s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:660:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree_bits_start[m[K’ was not declared in this scope
+[13.561s]   660 |                 int s = packet_bytes[[01;31m[Kdegree_bits_start[m[K];
+[13.561s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[13.581s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:663:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree_compensation[m[K’ was not declared in this scope
+[13.581s]   663 |                 degree = (s * 256 + z) / 100.f + [01;31m[Kdegree_compensation[m[K;
+[13.581s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.591s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:666:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.592s]   666 |                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[13.592s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.618s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:668:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_degree_bits_start[m[K’ was not declared in this scope
+[13.618s]   668 |                         int s_e = packet_bytes[[01;31m[Kend_degree_bits_start[m[K];
+[13.618s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.633s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:681:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.633s]   681 |                 if ([01;31m[Klidar_name[m[K == "M10_PLUS" || lidar_name == "M10_P")
+[13.633s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.649s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:683:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKET_SIZE[m[K’ was not declared in this scope
+[13.649s]   683 |                         [01;31m[KPACKET_SIZE[m[K = len;
+[13.649s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[13.672s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:684:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[13.672s]   684 |                         [01;31m[Kpackage_points[m[K = (PACKET_SIZE - 20) / 2;
+[13.672s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.687s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:688:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.687s]   688 |                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[13.687s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.702s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:691:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.702s]   691 |                 if ([01;31m[Klidar_name[m[K == "M10_GPS" || lidar_name == "M10")
+[13.702s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.729s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:702:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[13.729s]   702 |                 for (int num = 0; num < point_len * [01;31m[Kpackage_points[m[K; num += point_len)
+[13.729s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.753s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:704:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_bits_start[m[K’ was not declared in this scope
+[13.753s]   704 |                         int s = packet_bytes[num + [01;31m[Kdata_bits_start[m[K];
+[13.753s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.767s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:710:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[13.767s]   710 |                 if ([01;31m[Kuse_gps_ts[m[K && lidar_name != "N10")
+[13.767s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.782s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:710:35:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.782s]   710 |                 if (use_gps_ts && [01;31m[Klidar_name[m[K != "N10")
+[13.782s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[13.792s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:712:25:[m[K [01;31m[Kerror: [m[K‘[01m[KpTime[m[K’ was not declared in this scope
+[13.792s]   712 |                         [01;31m[KpTime[m[K.tm_year = packet_bytes[PACKET_SIZE - 12] + 2000 - 1900; // x+2000
+[13.792s]       |                         [01;31m[K^~~~~[m[K
+[13.809s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:712:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKET_SIZE[m[K’ was not declared in this scope
+[13.809s]   712 |                         pTime.tm_year = packet_bytes[[01;31m[KPACKET_SIZE[m[K - 12] + 2000 - 1900; // x+2000
+[13.809s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[13.823s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:718:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_second[m[K’ was not declared in this scope
+[13.823s]   718 |                         [01;31m[Ksub_second[m[K = (packet_bytes[PACKET_SIZE - 6] * 256 + packet_bytes[PACKET_SIZE - 5]) * 1000000 + (packet_bytes[PACKET_SIZE - 4] * 256 + packet_bytes[PACKET_SIZE - 3]) * 1000;
+[13.823s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[13.849s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:719:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[13.849s]   719 |                         [01;31m[Ksweep_end_time_gps[m[K = get_gps_stamp(pTime);
+[13.849s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.872s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:720:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[13.872s]   720 |                         [01;31m[Ksweep_end_time_hardware[m[K = sub_second % 1000000000;
+[13.872s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.888s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:722:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[13.888s]   722 |                 invalidValue = [01;31m[Kpackage_points[m[K - invalidValue;
+[13.888s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[13.898s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:723:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.898s]   723 |                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[13.898s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[13.923s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:733:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_bits_start[m[K’ was not declared in this scope
+[13.923s]   733 |                         int s = packet_bytes[num * point_len + [01;31m[Kdata_bits_start[m[K];
+[13.923s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.937s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:736:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.938s]   736 |                         if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[13.938s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[13.954s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:743:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[13.954s]   743 |                                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[13.954s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[13.974s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:745:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[13.974s]   745 |                                         [01;31m[Kscan_points_[m[K[idx].range = double(s * 256 + (z)) / 1000.f;
+[13.974s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[13.984s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:745:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[13.984s]   745 |                                         scan_points_[[01;31m[Kidx[m[K].range = double(s * 256 + (z)) / 1000.f;
+[13.984s]       |                                                      [01;31m[K^~~[m[K
+[14.009s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:748:98:[m[K [01;31m[Kerror: [m[K‘[01m[Khigh_reflection[m[K’ was not declared in this scope
+[14.009s]   748 |                                 else if ((lidar_name == "M10_P" || lidar_name == "M10_PLUS") && ![01;31m[Khigh_reflection[m[K)
+[14.009s]       |                                                                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[14.027s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:750:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.027s]   750 |                                         [01;31m[Kscan_points_[m[K[idx].range = double(s * 256 + (z)) / 1000.f;
+[14.027s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[14.035s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:750:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.035s]   750 |                                         scan_points_[[01;31m[Kidx[m[K].range = double(s * 256 + (z)) / 1000.f;
+[14.035s]       |                                                      [01;31m[K^~~[m[K
+[14.047s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:755:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.047s]   755 |                                         [01;31m[Kscan_points_[m[K[idx].range = double(dist_temp * 256 + (z)) / 1000.f;
+[14.047s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[14.055s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:755:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.055s]   755 |                                         scan_points_[[01;31m[Kidx[m[K].range = double(dist_temp * 256 + (z)) / 1000.f;
+[14.055s]       |                                                      [01;31m[K^~~[m[K
+[14.067s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:762:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.068s]   762 |                                         [01;31m[Kscan_points_[m[K[idx].degree = degree + (degree_interval / invalidValue * num) - 360;
+[14.068s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[14.078s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:762:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.078s]   762 |                                         scan_points_[[01;31m[Kidx[m[K].degree = degree + (degree_interval / invalidValue * num) - 360;
+[14.078s]       |                                                      [01;31m[K^~~[m[K
+[14.097s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:764:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.097s]   764 |                                         [01;31m[Kscan_points_[m[K[idx].degree = degree + (degree_interval / invalidValue * num);
+[14.097s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[14.107s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:764:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.107s]   764 |                                         scan_points_[[01;31m[Kidx[m[K].degree = degree + (degree_interval / invalidValue * num);
+[14.107s]       |                                                      [01;31m[K^~~[m[K
+[14.126s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:769:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.126s]   769 |                         if (([01;31m[Kscan_points_[m[K[idx].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_)
+[14.126s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[14.135s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:769:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.135s]   769 |                         if ((scan_points_[[01;31m[Kidx[m[K].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_)
+[14.135s]       |                                           [01;31m[K^~~[m[K
+[14.145s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:769:57:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_degree[m[K’ was not declared in this scope
+[14.145s]   769 |                         if ((scan_points_[idx].degree < [01;31m[Klast_degree[m[K && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_)
+[14.145s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[14.156s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:769:133:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints_size_[m[K’ was not declared in this scope
+[14.156s]   769 |                         if ((scan_points_[idx].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= [01;31m[Kpoints_size_[m[K)
+[14.157s]       |                                                                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[14.166s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:772:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[14.167s]   772 |                                 [01;31m[Kcount_num[m[K = idx;
+[14.167s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[14.175s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:776:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range[m[K’ was not declared in this scope
+[14.175s]   776 |                                         if (scan_points_[k].range < [01;31m[Kmin_range[m[K || scan_points_[k].range > max_range)
+[14.175s]       |                                                                     [01;31m[K^~~~~~~~~[m[K
+[14.184s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:776:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range[m[K’ was not declared in this scope
+[14.184s]   776 |                                         if (scan_points_[k].range < min_range || scan_points_[k].range > [01;31m[Kmax_range[m[K)
+[14.184s]       |                                                                                                          [01;31m[K^~~~~~~~~[m[K
+[14.192s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:779:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+[14.192s]   779 |                                 boost::unique_lock<boost::mutex> lock([01;31m[Kmutex_[m[K);
+[14.192s]       |                                                                       [01;31m[K^~~~~~[m[K
+[14.219s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:780:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_bak_[m[K’ was not declared in this scope
+[14.219s]   780 |                                 [01;31m[Kscan_points_bak_[m[K.resize(scan_points_.size());
+[14.219s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[14.232s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:788:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpre_time_[m[K’ was not declared in this scope
+[14.232s]   788 |                                 [01;31m[Kpre_time_[m[K = time_;
+[14.232s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[14.241s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:788:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[14.241s]   788 |                                 pre_time_ = [01;31m[Ktime_[m[K;
+[14.242s]       |                                             [01;31m[K^~~~~[m[K
+[14.242s]       |                                             [32m[Ktimex[m[K
+[14.258s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:790:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubscan_cond_[m[K’ was not declared in this scope
+[14.258s]   790 |                                 [01;31m[Kpubscan_cond_[m[K.notify_one();
+[14.259s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[14.269s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:791:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_clock[m[K’ was not declared in this scope
+[14.269s]   791 |                                 time_ = [01;31m[Kget_clock[m[K()->now();
+[14.269s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[14.270s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[14.270s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:807:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[14.270s]   807 |         void [01;31m[KLslidarDriver[m[K::data_processing_2(unsigned char *packet_bytes, int len) // 处理每一包的数据
+[14.270s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[14.292s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid data_processing_2(unsigned char*, int)[m[K’:
+[14.292s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:815:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree_bits_start[m[K’ was not declared in this scope
+[14.292s]   815 |                 int s = packet_bytes[[01;31m[Kdegree_bits_start[m[K];
+[14.292s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[14.319s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:818:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree_compensation[m[K’ was not declared in this scope
+[14.319s]   818 |                 degree = (s * 256 + z) / 100.f + [01;31m[Kdegree_compensation[m[K;
+[14.320s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.332s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:821:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.333s]   821 |                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.333s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[14.365s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:823:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_degree_bits_start[m[K’ was not declared in this scope
+[14.366s]   823 |                         int s_e = packet_bytes[[01;31m[Kend_degree_bits_start[m[K];
+[14.366s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.380s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:836:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.380s]   836 |                 if ([01;31m[Klidar_name[m[K == "M10_DOUBLE")
+[14.380s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[14.395s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:838:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKET_SIZE[m[K’ was not declared in this scope
+[14.395s]   838 |                         [01;31m[KPACKET_SIZE[m[K = len;
+[14.395s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[14.414s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:839:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[14.414s]   839 |                         [01;31m[Kpackage_points[m[K = (PACKET_SIZE - 20) / 4;
+[14.414s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.428s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:843:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.429s]   843 |                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.429s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[14.444s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:846:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[14.444s]   846 |                 for (int num = 0; num < point_len * [01;31m[Kpackage_points[m[K; num += point_len)
+[14.444s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.468s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:848:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_bits_start[m[K’ was not declared in this scope
+[14.469s]   848 |                         int s = packet_bytes[num + [01;31m[Kdata_bits_start[m[K];
+[14.469s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[14.485s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:854:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[14.485s]   854 |                 if ([01;31m[Kuse_gps_ts[m[K)
+[14.485s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[14.493s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:856:25:[m[K [01;31m[Kerror: [m[K‘[01m[KpTime[m[K’ was not declared in this scope
+[14.493s]   856 |                         [01;31m[KpTime[m[K.tm_year = packet_bytes[PACKET_SIZE - 12] + 2000 - 1900; // x+2000
+[14.493s]       |                         [01;31m[K^~~~~[m[K
+[14.501s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:856:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKET_SIZE[m[K’ was not declared in this scope
+[14.501s]   856 |                         pTime.tm_year = packet_bytes[[01;31m[KPACKET_SIZE[m[K - 12] + 2000 - 1900; // x+2000
+[14.501s]       |                                                      [01;31m[K^~~~~~~~~~~[m[K
+[14.509s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:862:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_second[m[K’ was not declared in this scope
+[14.509s]   862 |                         [01;31m[Ksub_second[m[K = (packet_bytes[PACKET_SIZE - 6] * 256 + packet_bytes[PACKET_SIZE - 5]) * 1000000 + (packet_bytes[PACKET_SIZE - 4] * 256 + packet_bytes[PACKET_SIZE - 3]) * 1000;
+[14.509s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[14.538s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:863:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[14.538s]   863 |                         [01;31m[Ksweep_end_time_gps[m[K = get_gps_stamp(pTime);
+[14.538s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.575s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:864:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[14.575s]   864 |                         [01;31m[Ksweep_end_time_hardware[m[K = sub_second % 1000000000;
+[14.575s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.593s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:866:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_points[m[K’ was not declared in this scope
+[14.593s]   866 |                 invalidValue = [01;31m[Kpackage_points[m[K - invalidValue;
+[14.593s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.606s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:867:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.607s]   867 |                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.607s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[14.631s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:877:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_bits_start[m[K’ was not declared in this scope
+[14.631s]   877 |                         int s = packet_bytes[num * point_len + [01;31m[Kdata_bits_start[m[K];
+[14.631s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[14.646s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:880:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.646s]   880 |                         if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.646s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[14.665s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:885:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.665s]   885 |                                 [01;31m[Kscan_points_[m[K[idx].range = double(s * 256 + (z)) / 1000.f;
+[14.665s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[14.674s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:885:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.674s]   885 |                                 scan_points_[[01;31m[Kidx[m[K].range = double(s * 256 + (z)) / 1000.f;
+[14.675s]       |                                              [01;31m[K^~~[m[K
+[14.687s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:886:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.687s]   886 |                                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.687s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[14.700s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:892:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.700s]   892 |                                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.700s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[14.715s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:896:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.715s]   896 |                                 if ([01;31m[Klidar_name[m[K == "N10_P")
+[14.715s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[14.734s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:908:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_[m[K’ was not declared in this scope
+[14.734s]   908 |                         if ((([01;31m[Kscan_points_[m[K[idx].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_) && idx > 10)
+[14.734s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[14.743s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:908:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kidx[m[K’ was not declared in this scope
+[14.743s]   908 |                         if (((scan_points_[[01;31m[Kidx[m[K].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_) && idx > 10)
+[14.743s]       |                                            [01;31m[K^~~[m[K
+[14.757s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:908:58:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_degree[m[K’ was not declared in this scope
+[14.757s]   908 |                         if (((scan_points_[idx].degree < [01;31m[Klast_degree[m[K && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= points_size_) && idx > 10)
+[14.757s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[14.768s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:908:134:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints_size_[m[K’ was not declared in this scope
+[14.768s]   908 |                         if (((scan_points_[idx].degree < last_degree && scan_points_[idx].degree < 5 && last_degree > 355) || idx >= [01;31m[Kpoints_size_[m[K) && idx > 10)
+[14.768s]       |                                                                                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[14.779s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:911:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[14.779s]   911 |                                 [01;31m[Kcount_num[m[K = idx;
+[14.779s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[14.802s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:915:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_max[m[K’ was not declared in this scope
+[14.803s]   915 |                                         if ([01;31m[Kangle_able_max[m[K > 360)
+[14.803s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.828s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:917:145:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[14.828s]   917 |                                                 if ((360 - scan_points_[k].degree) > (angle_able_max - 360) && (360 - scan_points_[k].degree) < [01;31m[Kangle_able_min[m[K)
+[14.828s]       |                                                                                                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.853s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:925:137:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[14.853s]   925 |                                                 if ((360 - scan_points_[k].degree) > angle_able_max || (360 - scan_points_[k].degree) < [01;31m[Kangle_able_min[m[K)
+[14.854s]       |                                                                                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.867s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:931:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range[m[K’ was not declared in this scope
+[14.867s]   931 |                                         if (scan_points_[k].range < [01;31m[Kmin_range[m[K || scan_points_[k].range > max_range)
+[14.867s]       |                                                                     [01;31m[K^~~~~~~~~[m[K
+[14.880s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:931:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range[m[K’ was not declared in this scope
+[14.881s]   931 |                                         if (scan_points_[k].range < min_range || scan_points_[k].range > [01;31m[Kmax_range[m[K)
+[14.881s]       |                                                                                                          [01;31m[K^~~~~~~~~[m[K
+[14.895s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:933:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range[m[K’ was not declared in this scope
+[14.895s]   933 |                                         if (scan_points_[k + 3000].range < [01;31m[Kmin_range[m[K || scan_points_[k + 3000].range > max_range)
+[14.895s]       |                                                                            [01;31m[K^~~~~~~~~[m[K
+[14.909s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:933:120:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range[m[K’ was not declared in this scope
+[14.909s]   933 |                                         if (scan_points_[k + 3000].range < min_range || scan_points_[k + 3000].range > [01;31m[Kmax_range[m[K)
+[14.909s]       |                                                                                                                        [01;31m[K^~~~~~~~~[m[K
+[14.920s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:936:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+[14.920s]   936 |                                 boost::unique_lock<boost::mutex> lock([01;31m[Kmutex_[m[K);
+[14.920s]       |                                                                       [01;31m[K^~~~~~[m[K
+[14.935s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:937:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_points_bak_[m[K’ was not declared in this scope
+[14.936s]   937 |                                 [01;31m[Kscan_points_bak_[m[K.resize(scan_points_.size());
+[14.936s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[14.942s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:945:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpre_time_[m[K’ was not declared in this scope
+[14.943s]   945 |                                 [01;31m[Kpre_time_[m[K = time_;
+[14.943s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[14.949s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:945:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[14.949s]   945 |                                 pre_time_ = [01;31m[Ktime_[m[K;
+[14.949s]       |                                             [01;31m[K^~~~~[m[K
+[14.950s]       |                                             [32m[Ktimex[m[K
+[14.962s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:947:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubscan_cond_[m[K’ was not declared in this scope
+[14.962s]   947 |                                 [01;31m[Kpubscan_cond_[m[K.notify_one();
+[14.962s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[14.969s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:948:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_clock[m[K’ was not declared in this scope
+[14.969s]   948 |                                 time_ = [01;31m[Kget_clock[m[K()->now();
+[14.969s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[14.969s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[14.969s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:964:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[14.969s]   964 |         void [01;31m[KLslidarDriver[m[K::pubScanThread()
+[14.969s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kvoid pubScanThread()[m[K’:
+[14.979s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:967:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubscan_mutex_[m[K’ was not declared in this scope
+[14.979s]   967 |                 boost::unique_lock<boost::mutex> lock([01;31m[Kpubscan_mutex_[m[K);
+[14.979s]       |                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.988s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:974:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubscan_cond_[m[K’ was not declared in this scope
+[14.988s]   974 |                                 [01;31m[Kpubscan_cond_[m[K.wait(lock);
+[14.988s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[14.995s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:977:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[14.995s]   977 |                         if ([01;31m[Klidar_name[m[K == "N10_P" || lidar_name == "M10_DOUBLE")
+[14.995s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[15.000s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:979:37:[m[K [01;31m[Kerror: [m[K‘[01m[KpubScan[m[K’ was not declared in this scope
+[15.000s]   979 |                                 if ([01;31m[KpubScan[m[K)
+[15.000s]       |                                     [01;31m[K^~~~~~~[m[K
+[15.013s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:983:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[15.013s]   983 |                                         int scan_num = [01;31m[Kcount_num[m[K ;
+[15.013s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[15.016s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:985:53:[m[K [01;31m[Kerror: [m[K‘[01m[KScanPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::ScanPoint[m[K’?
+[15.016s]   985 |                                         std::vector<[01;31m[KScanPoint[m[K> points;
+[15.016s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[15.016s]       |                                                     [32m[Klslidar_driver::ScanPoint[m[K
+[15.016s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.016s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:57:3:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::ScanPoint[m[K’ declared here
+[15.017s]    57 | } [01;36m[KScanPoint[m[K;
+[15.017s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.017s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:985:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[15.017s]   985 |                                         std::vector<ScanPoint[01;31m[K>[m[K points;
+[15.017s]       |                                                              [01;31m[K^[m[K
+[15.017s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:985:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[15.017s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:988:41:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.017s]   988 |                                         [01;31m[Kthis[m[K->getScan(points, start_time, scan_time);
+[15.017s]       |                                         [01;31m[K^~~~[m[K
+[15.026s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:989:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+[15.026s]   989 |                                         scan->header.frame_id = [01;31m[Kframe_id[m[K;
+[15.026s]       |                                                                 [01;31m[K^~~~~~~~[m[K
+[15.037s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:990:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[15.037s]   990 |                                         if ([01;31m[Kuse_gps_ts[m[K)
+[15.038s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[15.067s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:992:83:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[15.068s]   992 |                                                 scan->header.stamp = rclcpp::Time([01;31m[Ksweep_end_time_gps[m[K, sweep_end_time_hardware);
+[15.068s]       |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.097s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:992:103:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[15.097s]   992 |                                                 scan->header.stamp = rclcpp::Time(sweep_end_time_gps, [01;31m[Ksweep_end_time_hardware[m[K);
+[15.097s]       |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.097s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:996:70:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.097s]   996 |                                                 scan->header.stamp = [01;31m[Kthis[m[K->now(); // timestamp will obtained from sweep data stamp
+[15.097s]       |                                                                      [01;31m[K^~~~[m[K
+[15.111s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1002:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range[m[K’ was not declared in this scope
+[15.112s]  1002 |                                         scan->range_min = [01;31m[Kmin_range[m[K;
+[15.112s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[15.127s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1003:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range[m[K’ was not declared in this scope
+[15.127s]  1003 |                                         scan->range_max = [01;31m[Kmax_range[m[K;
+[15.127s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[15.127s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1019:84:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.128s]  1019 |                                                 int point_idx = round((360 - points[01;31m[K[[m[Ki].degree) * count_num / 360);
+[15.128s]       |                                                                                    [01;31m[K^[m[K
+[15.128s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1020:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.128s]  1020 |                                                 if (points[01;31m[K[[m[Ki].range == 0.0)
+[15.128s]       |                                                           [01;31m[K^[m[K
+[15.128s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1027:77:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.128s]  1027 |                                                         double dist = points[01;31m[K[[m[Ki].range;
+[15.128s]       |                                                                             [01;31m[K^[m[K
+[15.128s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1029:94:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.128s]  1029 |                                                         scan->intensities[point_idx] = points[01;31m[K[[m[Ki].intensity;
+[15.128s]       |                                                                                              [01;31m[K^[m[K
+[15.138s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1054:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_num[m[K’?
+[15.138s]  1054 |                                         [01;31m[Kscan_pub[m[K->publish(std::move(scan));
+[15.139s]       |                                         [01;31m[K^~~~~~~~[m[K
+[15.139s]       |                                         [32m[Kscan_num[m[K
+[15.161s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1056:37:[m[K [01;31m[Kerror: [m[K‘[01m[KpubPointCloud2[m[K’ was not declared in this scope
+[15.161s]  1056 |                                 if ([01;31m[KpubPointCloud2[m[K)
+[15.161s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.163s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1058:53:[m[K [01;31m[Kerror: [m[K‘[01m[KScanPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::ScanPoint[m[K’?
+[15.163s]  1058 |                                         std::vector<[01;31m[KScanPoint[m[K> points;
+[15.163s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[15.163s]       |                                                     [32m[Klslidar_driver::ScanPoint[m[K
+[15.163s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.163s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:57:3:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::ScanPoint[m[K’ declared here
+[15.164s]    57 | } [01;36m[KScanPoint[m[K;
+[15.164s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.164s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1058:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[15.164s]  1058 |                                         std::vector<ScanPoint[01;31m[K>[m[K points;
+[15.164s]       |                                                              [01;31m[K^[m[K
+[15.164s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1058:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[15.164s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1061:41:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.164s]  1061 |                                         [01;31m[Kthis[m[K->getScan(points, start_time, scan_time);
+[15.164s]       |                                         [01;31m[K^~~~[m[K
+[15.164s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1062:41:[m[K [01;31m[Kerror: [m[K‘[01m[KVPointCloud[m[K’ has not been declared
+[15.164s]  1062 |                                         [01;31m[KVPointCloud[m[K::Ptr point_cloud(new VPointCloud());
+[15.164s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[15.175s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1063:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[15.175s]  1063 |                                         if ([01;31m[Kuse_gps_ts[m[K)
+[15.175s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[15.192s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1065:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[15.192s]  1065 |                                                 start_time = rclcpp::Time([01;31m[Ksweep_end_time_gps[m[K, sweep_end_time_hardware);
+[15.192s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.221s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1065:95:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[15.221s]  1065 |                                                 start_time = rclcpp::Time(sweep_end_time_gps, [01;31m[Ksweep_end_time_hardware[m[K);
+[15.221s]       |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.237s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1068:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud[m[K’ was not declared in this scope
+[15.237s]  1068 |                                         [01;31m[Kpoint_cloud[m[K->header.stamp = static_cast<uint64_t>(timestamp * 1e6);
+[15.237s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[15.250s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1069:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+[15.250s]  1069 |                                         point_cloud->header.frame_id = [01;31m[Kframe_id[m[K;
+[15.250s]       |                                                                        [01;31m[K^~~~~~~~[m[K
+[15.266s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1072:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[15.267s]  1072 |                                         for (uint16_t i = 0; i < [01;31m[Kcount_num[m[K; i++)
+[15.267s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[15.268s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1075:79:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.268s]  1075 |                                                 double degree = 360.0 - points[01;31m[K[[m[Ki].degree;
+[15.268s]       |                                                                               [01;31m[K^[m[K
+[15.291s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1077:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_max[m[K’ was not declared in this scope
+[15.291s]  1077 |                                                 if ([01;31m[Kangle_able_max[m[K < 360)
+[15.291s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.313s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1079:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[15.313s]  1079 |                                                         if (degree < [01;31m[Kangle_able_min[m[K || degree > angle_able_max)
+[15.313s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1084:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[15.330s]  1084 |                                                         if (degree < [01;31m[Kangle_able_min[m[K && degree > (angle_able_max - 360))
+[15.330s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.330s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1087:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.330s]  1087 |                                                 if (points[01;31m[K[[m[Ki].range < 0.001)
+[15.330s]       |                                                           [01;31m[K^[m[K
+[15.332s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1093:57:[m[K [01;31m[Kerror: [m[K‘[01m[KVPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::VPoint[m[K’?
+[15.332s]  1093 |                                                         [01;31m[KVPoint[m[K point;
+[15.332s]       |                                                         [01;31m[K^~~~~~[m[K
+[15.332s]       |                                                         [32m[Klslidar_driver::VPoint[m[K
+[15.332s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.332s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:150:20:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::VPoint[m[K’ declared here
+[15.332s]   150 | typedef PointXYZIT [01;36m[KVPoint[m[K;
+[15.332s]       |                    [01;36m[K^~~~~~[m[K
+[15.337s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1095:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoints[m[K’?
+[15.337s]  1095 |                                                         [01;31m[Kpoint[m[K.timestamp = timestamp - point_idx * (scan_time / count_num);
+[15.337s]       |                                                         [01;31m[K^~~~~[m[K
+[15.337s]       |                                                         [32m[Kpoints[m[K
+[15.337s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1097:73:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.338s]  1097 |                                                         point.x = points[01;31m[K[[m[Ki].range * cos(M_PI / 180 * points[i].degree);
+[15.338s]       |                                                                         [01;31m[K^[m[K
+[15.338s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1097:108:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.338s]  1097 |                                                         point.x = points[i].range * cos(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.338s]       |                                                                                                            [01;31m[K^[m[K
+[15.338s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1098:74:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.338s]  1098 |                                                         point.y = -points[01;31m[K[[m[Ki].range * sin(M_PI / 180 * points[i].degree);
+[15.338s]       |                                                                          [01;31m[K^[m[K
+[15.338s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1098:109:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.338s]  1098 |                                                         point.y = -points[i].range * sin(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.338s]       |                                                                                                             [01;31m[K^[m[K
+[15.338s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1100:81:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.338s]  1100 |                                                         point.intensity = points[01;31m[K[[m[Ki].intensity;
+[15.338s]       |                                                                                 [01;31m[K^[m[K
+[15.338s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1104:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.339s]  1104 |                                                 if (points[01;31m[K[[m[Ki + 3000].range < 0.001)
+[15.339s]       |                                                           [01;31m[K^[m[K
+[15.343s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1110:57:[m[K [01;31m[Kerror: [m[K‘[01m[KVPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::VPoint[m[K’?
+[15.343s]  1110 |                                                         [01;31m[KVPoint[m[K point;
+[15.343s]       |                                                         [01;31m[K^~~~~~[m[K
+[15.343s]       |                                                         [32m[Klslidar_driver::VPoint[m[K
+[15.343s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.343s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:150:20:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::VPoint[m[K’ declared here
+[15.343s]   150 | typedef PointXYZIT [01;36m[KVPoint[m[K;
+[15.343s]       |                    [01;36m[K^~~~~~[m[K
+[15.344s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1112:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoints[m[K’?
+[15.344s]  1112 |                                                         [01;31m[Kpoint[m[K.timestamp = timestamp - point_idx * (scan_time / count_num);
+[15.344s]       |                                                         [01;31m[K^~~~~[m[K
+[15.344s]       |                                                         [32m[Kpoints[m[K
+[15.345s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1114:73:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.345s]  1114 |                                                         point.x = points[01;31m[K[[m[Ki + 3000].range * cos(M_PI / 180 * points[i].degree);
+[15.345s]       |                                                                         [01;31m[K^[m[K
+[15.345s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1114:115:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.345s]  1114 |                                                         point.x = points[i + 3000].range * cos(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.345s]       |                                                                                                                   [01;31m[K^[m[K
+[15.345s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1115:74:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.345s]  1115 |                                                         point.y = -points[01;31m[K[[m[Ki + 3000].range * sin(M_PI / 180 * points[i].degree);
+[15.345s]       |                                                                          [01;31m[K^[m[K
+[15.345s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1115:116:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.345s]  1115 |                                                         point.y = -points[i + 3000].range * sin(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.345s]       |                                                                                                                    [01;31m[K^[m[K
+[15.345s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1117:81:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.345s]  1117 |                                                         point.intensity = points[01;31m[K[[m[Ki + 3000].intensity;
+[15.345s]       |                                                                                 [01;31m[K^[m[K
+[15.363s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1124:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_pub[m[K’ was not declared in this scope
+[15.363s]  1124 |                                         [01;31m[Kpoint_cloud_pub[m[K->publish(pc_msg);
+[15.363s]       |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[15.374s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1129:37:[m[K [01;31m[Kerror: [m[K‘[01m[KpubScan[m[K’ was not declared in this scope
+[15.375s]  1129 |                                 if ([01;31m[KpubScan[m[K)
+[15.375s]       |                                     [01;31m[K^~~~~~~[m[K
+[15.398s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1132:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_max[m[K’ was not declared in this scope
+[15.398s]  1132 |                                         int scan_num = ceil(([01;31m[Kangle_able_max[m[K - angle_able_min) / 360 * count_num) + 1;
+[15.398s]       |                                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.419s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1132:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[15.419s]  1132 |                                         int scan_num = ceil((angle_able_max - [01;31m[Kangle_able_min[m[K) / 360 * count_num) + 1;
+[15.419s]       |                                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.428s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1132:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[15.428s]  1132 |                                         int scan_num = ceil((angle_able_max - angle_able_min) / 360 * [01;31m[Kcount_num[m[K) + 1;
+[15.428s]       |                                                                                                       [01;31m[K^~~~~~~~~[m[K
+[15.430s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1134:53:[m[K [01;31m[Kerror: [m[K‘[01m[KScanPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::ScanPoint[m[K’?
+[15.430s]  1134 |                                         std::vector<[01;31m[KScanPoint[m[K> points;
+[15.430s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[15.430s]       |                                                     [32m[Klslidar_driver::ScanPoint[m[K
+[15.430s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.430s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:57:3:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::ScanPoint[m[K’ declared here
+[15.430s]    57 | } [01;36m[KScanPoint[m[K;
+[15.430s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.431s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1134:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[15.431s]  1134 |                                         std::vector<ScanPoint[01;31m[K>[m[K points;
+[15.431s]       |                                                              [01;31m[K^[m[K
+[15.431s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1134:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[15.431s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1137:41:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.431s]  1137 |                                         [01;31m[Kthis[m[K->getScan(points, start_time, scan_time);
+[15.431s]       |                                         [01;31m[K^~~~[m[K
+[15.438s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1138:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+[15.438s]  1138 |                                         scan->header.frame_id = [01;31m[Kframe_id[m[K;
+[15.438s]       |                                                                 [01;31m[K^~~~~~~~[m[K
+[15.447s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1139:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[15.447s]  1139 |                                         if ([01;31m[Kuse_gps_ts[m[K)
+[15.448s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[15.468s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1141:83:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[15.469s]  1141 |                                                 scan->header.stamp = rclcpp::Time([01;31m[Ksweep_end_time_gps[m[K, sweep_end_time_hardware);
+[15.469s]       |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.504s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1141:103:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[15.504s]  1141 |                                                 scan->header.stamp = rclcpp::Time(sweep_end_time_gps, [01;31m[Ksweep_end_time_hardware[m[K);
+[15.504s]       |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.504s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1145:70:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.504s]  1145 |                                                 scan->header.stamp = [01;31m[Kthis[m[K->now(); // timestamp will obtained from sweep data stamp
+[15.504s]       |                                                                      [01;31m[K^~~~[m[K
+[15.517s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1160:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range[m[K’ was not declared in this scope
+[15.517s]  1160 |                                         scan->range_min = [01;31m[Kmin_range[m[K;
+[15.517s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[15.529s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1161:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range[m[K’ was not declared in this scope
+[15.530s]  1161 |                                         scan->range_max = [01;31m[Kmax_range[m[K;
+[15.530s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[15.530s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1174:84:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.530s]  1174 |                                                 int point_idx = round((360 - points[01;31m[K[[m[Ki].degree) * count_num / 360);
+[15.531s]       |                                                                                    [01;31m[K^[m[K
+[15.531s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1180:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.531s]  1180 |                                                 if (points[01;31m[K[[m[Ki].range == 0.0)
+[15.531s]       |                                                           [01;31m[K^[m[K
+[15.531s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1186:77:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.531s]  1186 |                                                         double dist = points[01;31m[K[[m[Ki].range;
+[15.531s]       |                                                                             [01;31m[K^[m[K
+[15.531s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1189:86:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[15.531s]  1189 |                                                 scan->intensities[point_idx] = points[01;31m[K[[m[Ki].intensity;
+[15.531s]       |                                                                                      [01;31m[K^[m[K
+[15.538s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1203:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_num[m[K’?
+[15.539s]  1203 |                                         [01;31m[Kscan_pub[m[K->publish(std::move(scan));
+[15.539s]       |                                         [01;31m[K^~~~~~~~[m[K
+[15.539s]       |                                         [32m[Kscan_num[m[K
+[15.561s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1205:37:[m[K [01;31m[Kerror: [m[K‘[01m[KpubPointCloud2[m[K’ was not declared in this scope
+[15.561s]  1205 |                                 if ([01;31m[KpubPointCloud2[m[K)
+[15.561s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.563s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1207:53:[m[K [01;31m[Kerror: [m[K‘[01m[KScanPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::ScanPoint[m[K’?
+[15.563s]  1207 |                                         std::vector<[01;31m[KScanPoint[m[K> points;
+[15.563s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[15.564s]       |                                                     [32m[Klslidar_driver::ScanPoint[m[K
+[15.564s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.564s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:57:3:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::ScanPoint[m[K’ declared here
+[15.564s]    57 | } [01;36m[KScanPoint[m[K;
+[15.564s]       |   [01;36m[K^~~~~~~~~[m[K
+[15.564s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1207:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[15.564s]  1207 |                                         std::vector<ScanPoint[01;31m[K>[m[K points;
+[15.564s]       |                                                              [01;31m[K^[m[K
+[15.564s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1207:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[15.564s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1210:41:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.565s]  1210 |                                         [01;31m[Kthis[m[K->getScan(points, start_time, scan_time);
+[15.565s]       |                                         [01;31m[K^~~~[m[K
+[15.565s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1211:41:[m[K [01;31m[Kerror: [m[K‘[01m[KVPointCloud[m[K’ has not been declared
+[15.565s]  1211 |                                         [01;31m[KVPointCloud[m[K::Ptr point_cloud(new VPointCloud());
+[15.565s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[15.575s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1212:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_gps_ts[m[K’ was not declared in this scope
+[15.575s]  1212 |                                         if ([01;31m[Kuse_gps_ts[m[K)
+[15.575s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[15.597s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1214:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_gps[m[K’ was not declared in this scope
+[15.597s]  1214 |                                                 start_time = rclcpp::Time([01;31m[Ksweep_end_time_gps[m[K, sweep_end_time_hardware);
+[15.597s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.625s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1214:95:[m[K [01;31m[Kerror: [m[K‘[01m[Ksweep_end_time_hardware[m[K’ was not declared in this scope
+[15.625s]  1214 |                                                 start_time = rclcpp::Time(sweep_end_time_gps, [01;31m[Ksweep_end_time_hardware[m[K);
+[15.625s]       |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.642s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1217:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud[m[K’ was not declared in this scope
+[15.642s]  1217 |                                         [01;31m[Kpoint_cloud[m[K->header.stamp = static_cast<uint64_t>(timestamp * 1e6);
+[15.642s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[15.657s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1218:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+[15.658s]  1218 |                                         point_cloud->header.frame_id = [01;31m[Kframe_id[m[K;
+[15.658s]       |                                                                        [01;31m[K^~~~~~~~[m[K
+[15.673s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1220:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[15.673s]  1220 |                                         for (uint16_t i = 0; i < [01;31m[Kcount_num[m[K; i++)
+[15.673s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[15.674s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1222:79:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.674s]  1222 |                                                 double degree = 360.0 - points[01;31m[K[[m[Ki].degree;
+[15.674s]       |                                                                               [01;31m[K^[m[K
+[15.696s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1224:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_max[m[K’ was not declared in this scope
+[15.696s]  1224 |                                                 if ([01;31m[Kangle_able_max[m[K < 360)
+[15.696s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.721s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1226:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[15.721s]  1226 |                                                         if (degree < [01;31m[Kangle_able_min[m[K || degree > angle_able_max)
+[15.721s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.746s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1231:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_able_min[m[K’ was not declared in this scope
+[15.746s]  1231 |                                                         if (degree < [01;31m[Kangle_able_min[m[K && degree > (angle_able_max - 360))
+[15.746s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[15.746s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1234:59:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.746s]  1234 |                                                 if (points[01;31m[K[[m[Ki].range < 0.001)
+[15.746s]       |                                                           [01;31m[K^[m[K
+[15.749s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1240:57:[m[K [01;31m[Kerror: [m[K‘[01m[KVPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Klslidar_driver::VPoint[m[K’?
+[15.749s]  1240 |                                                         [01;31m[KVPoint[m[K point;
+[15.750s]       |                                                         [01;31m[K^~~~~~[m[K
+[15.750s]       |                                                         [32m[Klslidar_driver::VPoint[m[K
+[15.750s] In file included from [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:31[m[K:
+[15.750s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/include/lslidar_driver/lslidar_driver.h:150:20:[m[K [01;36m[Knote: [m[K‘[01m[Klslidar_driver::VPoint[m[K’ declared here
+[15.750s]   150 | typedef PointXYZIT [01;36m[KVPoint[m[K;
+[15.750s]       |                    [01;36m[K^~~~~~[m[K
+[15.758s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1242:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoints[m[K’?
+[15.758s]  1242 |                                                         [01;31m[Kpoint[m[K.timestamp = timestamp - point_idx * (scan_time / count_num);
+[15.758s]       |                                                         [01;31m[K^~~~~[m[K
+[15.758s]       |                                                         [32m[Kpoints[m[K
+[15.759s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1244:73:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.759s]  1244 |                                                         point.x = points[01;31m[K[[m[Ki].range * cos(M_PI / 180 * points[i].degree);
+[15.759s]       |                                                                         [01;31m[K^[m[K
+[15.759s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1244:108:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.759s]  1244 |                                                         point.x = points[i].range * cos(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.759s]       |                                                                                                            [01;31m[K^[m[K
+[15.759s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1245:74:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.759s]  1245 |                                                         point.y = -points[01;31m[K[[m[Ki].range * sin(M_PI / 180 * points[i].degree);
+[15.759s]       |                                                                          [01;31m[K^[m[K
+[15.759s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1245:109:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.759s]  1245 |                                                         point.y = -points[i].range * sin(M_PI / 180 * points[01;31m[K[[m[Ki].degree);
+[15.759s]       |                                                                                                             [01;31m[K^[m[K
+[15.759s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1247:81:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[uint16_t {aka short unsigned int}][m[K’ for array subscript
+[15.759s]  1247 |                                                         point.intensity = points[01;31m[K[[m[Ki].intensity;
+[15.759s]       |                                                                                 [01;31m[K^[m[K
+[15.783s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1254:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_pub[m[K’ was not declared in this scope
+[15.783s]  1254 |                                         [01;31m[Kpoint_cloud_pub[m[K->publish(pc_msg);
+[15.783s]       |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[15.798s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1257:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_num[m[K’ was not declared in this scope
+[15.798s]  1257 |                         [01;31m[Kcount_num[m[K = 0;
+[15.798s]       |                         [01;31m[K^~~~~~~~~[m[K
+[15.829s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1259:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_compensation[m[K’ was not declared in this scope
+[15.829s]  1259 |                         if ([01;31m[Kfirst_compensation[m[K && compensation)
+[15.829s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.848s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1259:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompensation[m[K’ was not declared in this scope
+[15.848s]  1259 |                         if (first_compensation && [01;31m[Kcompensation[m[K)
+[15.848s]       |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[15.849s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[15.849s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1266:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[15.849s]  1266 |         bool [01;31m[KLslidarDriver[m[K::polling()
+[15.849s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[15.862s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K In function ‘[01m[Kbool polling()[m[K’:
+[15.862s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1268:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+[15.863s]  1268 |                 if (![01;31m[Kis_start[m[K)
+[15.863s]       |                      [01;31m[K^~~~~~~~[m[K
+[15.863s]       |                      [32m[Kva_start[m[K
+[15.882s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1274:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface_selection[m[K’ was not declared in this scope
+[15.882s]  1274 |                 if ([01;31m[Kinterface_selection[m[K == "net")
+[15.882s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[15.900s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1285:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsop_input_[m[K’ was not declared in this scope
+[15.900s]  1285 |                                 len = [01;31m[Kmsop_input_[m[K->getPacket(packet);
+[15.900s]       |                                       [01;31m[K^~~~~~~~~~~[m[K
+[15.910s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1288:45:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[15.910s]  1288 |                                         if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[15.910s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[15.923s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1307:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[15.924s]  1307 |                                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[15.924s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[15.940s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1321:38:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[15.940s]  1321 |                                 if (([01;31m[Klidar_name[m[K == "M10" || lidar_name == "M10_DOUBLE" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_PLUS") && compensation)
+[15.940s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[15.959s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1321:172:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompensation[m[K’ was not declared in this scope
+[15.959s]  1321 |                                 if ((lidar_name == "M10" || lidar_name == "M10_DOUBLE" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_PLUS") && [01;31m[Kcompensation[m[K)
+[15.959s]       |                                                                                                                                                                            [01;31m[K^~~~~~~~~~~~[m[K
+[15.969s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1336:38:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[15.969s]  1336 |                                 if (([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10" || lidar_name == "N10_P") && packet_bytes[len - 1] != N10_CalCRC8(packet_bytes, len - 1))
+[15.969s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[15.978s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1343:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kin_file_name[m[K’ was not declared in this scope
+[15.979s]  1343 |                         if ([01;31m[Kin_file_name[m[K != "") // 读txt文件功能
+[15.979s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[15.989s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1364:53:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[15.989s]  1364 |                                                 if ([01;31m[Klidar_name[m[K == "N10" || lidar_name == "L10")
+[15.989s]       |                                                     [01;31m[K^~~~~~~~~~[m[K
+[16.002s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1378:53:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[16.002s]  1378 |                                                 if ([01;31m[Klidar_name[m[K == "N10_P" || lidar_name == "M10_DOUBLE")
+[16.002s]       |                                                     [01;31m[K^~~~~~~~~~[m[K
+[16.003s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1379:57:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.003s]  1379 |                                                         [01;31m[KLslidarDriver[m[K::data_processing_2(packet_bytes, len);
+[16.003s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[16.003s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1381:57:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.003s]  1381 |                                                         [01;31m[KLslidarDriver[m[K::data_processing(packet_bytes, len);
+[16.003s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[16.003s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1393:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.003s]  1393 |                                         len = [01;31m[KLslidarDriver[m[K::receive_data(packet_bytes);
+[16.003s]       |                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[16.016s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1394:46:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[16.016s]  1394 |                                         if (([01;31m[Klidar_name[m[K == "M10" || lidar_name == "M10_DOUBLE" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_PLUS") && compensation)
+[16.016s]       |                                              [01;31m[K^~~~~~~~~~[m[K
+[16.037s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1394:180:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompensation[m[K’ was not declared in this scope
+[16.037s]  1394 |                                         if ((lidar_name == "M10" || lidar_name == "M10_DOUBLE" || lidar_name == "M10_GPS" || lidar_name == "M10_P" || lidar_name == "M10_PLUS") && [01;31m[Kcompensation[m[K)
+[16.037s]       |                                                                                                                                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[16.037s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1406:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.037s]  1406 |                         [01;31m[KLslidarDriver[m[K::difop_processing(packet_bytes);
+[16.037s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[16.052s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1409:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_name[m[K’ was not declared in this scope
+[16.052s]  1409 |                         if ([01;31m[Klidar_name[m[K == "N10_P" || lidar_name == "M10_DOUBLE")
+[16.052s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[16.054s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1410:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.054s]  1410 |                                 [01;31m[KLslidarDriver[m[K::data_processing_2(packet_bytes, len);
+[16.054s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[16.054s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1412:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLslidarDriver[m[K’ has not been declared
+[16.054s]  1412 |                                 [01;31m[KLslidarDriver[m[K::data_processing(packet_bytes, len);
+[16.054s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[16.054s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:[m[K At global scope:
+[16.054s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver/src/lslidar_driver.cc:1418:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[16.055s]  1418 | [01;31m[K}[m[K // namespace lslidar_driver
+[16.055s]       | [01;31m[K^[m[K
+[19.726s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:90：CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o] 错误 1
+[19.727s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/lslidar_driver_node.dir/all] 错误 2
+[19.727s] gmake: *** [Makefile:146：all] 错误 2
+[19.730s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver -- -j12 -l12
