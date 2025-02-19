@@ -1,0 +1,29 @@
+[0.029s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox -- -j12 -l12
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.204s] [100%] Built target talker
+[0.226s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox -- -j12 -l12
+[0.226s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox
+[0.232s] -- Install configuration: ""
+[0.233s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib/wheeltec_slam_toolbox/talker
+[0.233s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/config
+[0.233s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/config/mapper_params_online_sync.yaml
+[0.233s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/config/mapper_params_online_async.yaml
+[0.233s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/launch
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/launch/online_sync.launch.py
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/launch/online_async_launch.py
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/wheeltec_slam_toolbox
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/wheeltec_slam_toolbox
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/environment/ament_prefix_path.sh
+[0.234s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/environment/path.sh
+[0.235s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/environment/path.dsv
+[0.235s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/local_setup.bash
+[0.235s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/local_setup.sh
+[0.235s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/local_setup.zsh
+[0.236s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/local_setup.dsv
+[0.236s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.dsv
+[0.236s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/ament_index/resource_index/packages/wheeltec_slam_toolbox
+[0.236s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/cmake/wheeltec_slam_toolboxConfig.cmake
+[0.236s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/cmake/wheeltec_slam_toolboxConfig-version.cmake
+[0.236s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.xml
+[0.239s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox

@@ -1,0 +1,116 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 6, in <module>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 918, in _get_parser
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+    from rosidl_typesupport_fastrtps_cpp import generate_cpp
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 15, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+    from rosidl_cmake import generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    from lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/__init__.py", line 7, in <module>
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+gmake[2]: *** [CMakeFiles/wheeltec_robot_node.dir/build.make:90: CMakeFiles/wheeltec_robot_node.dir/src/Quaternion_Solution.cpp.o] 中断
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+gmake[2]: *** [CMakeFiles/wheeltec_robot_node.dir/build.make:76: CMakeFiles/wheeltec_robot_node.dir/src/wheeltec_robot.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/wheeltec_robot_node.dir/all] 中断
+gmake[2]: *** [CMakeFiles/turn_on_wheeltec_robot__rosidl_generator_c.dir/build.make:128: libturn_on_wheeltec_robot__rosidl_generator_c.so] 中断
+    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+    from .lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 3, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/turn_on_wheeltec_robot__rosidl_generator_c.dir/all] 中断
+    import tempfile
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+    return _get_parser.cache
+AttributeError: 'function' object has no attribute 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+  File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+  File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+  File "<frozen importlib._bootstrap>", line 397, in cached
+    generate_cpp(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+  File "<frozen importlib._bootstrap_external>", line 511, in _get_cached
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+KeyboardInterrupt
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+    builder.load_grammar(grammar, source)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+    tree = _parse_grammar(grammar_text, grammar_name)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar
+    tree = _get_parser().parse(text + '\n', start)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 933, in _get_parser
+    builder.load_grammar(grammar, source)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+    tree = _parse_grammar(grammar_text, grammar_name)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar
+    tree = _get_parser().parse(text + '\n', start)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+    _get_parser.cache = ParsingFrontend(lexer_conf, parser_conf, None)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 57, in __init__
+    return self.parser.parse(stream, chosen_start, **kw)
+    self.parser = create_parser(lexer_conf, parser_conf, options)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 41, in parse
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 154, in create_lalr_parser
+    return cls(parser_conf, debug=debug)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 19, in __init__
+    return self.parser.parse(lexer, start)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 171, in parse
+    return self.parse_from_state(parser_state)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 178, in parse_from_state
+    for token in state.lexer.lex(state):
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 453, in lex
+    analysis.compute_lalr()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 301, in compute_lalr
+    yield self.next_token(state, parser_state)
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 470, in next_token
+    self.compute_reads_relations()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 189, in compute_reads_relations
+    t = Token(type_, value, line_ctr.char_pos, line_ctr.line, line_ctr.column)
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 159, in __new__
+    if s not in self.lr0_rules_by_origin:
+  File "/usr/lib/python3/dist-packages/lark/grammar.py", line 25, in __hash__
+    def __new__(cls, type_, value, start_pos=None, line=None, column=None, end_line=None, end_column=None, end_pos=None):
+KeyboardInterrupt
+    def __hash__(self):
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.dir/build.make:82: rosidl_typesupport_fastrtps_cpp/turn_on_wheeltec_robot/msg/detail/dds_fastrtps/position__type_support.cpp] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.dir/all] 中断
+gmake[2]: *** [CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_cpp.dir/build.make:80: rosidl_typesupport_cpp/turn_on_wheeltec_robot/msg/position__type_support.cpp] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_cpp.dir/all] 中断
+gmake[2]: *** [CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.dir/build.make:82: rosidl_typesupport_introspection_cpp/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

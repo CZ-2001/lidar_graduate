@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.519s] -- Detecting CXX compile features
+[0.520s] -- Detecting CXX compile features - done
+[0.817s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.820s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.022s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.204s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.212s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.229s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.339s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.554s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.632s] -- Found Threads: TRUE  
+[1.717s] -- Checking for module 'eigen3'
+[1.747s] --   Found eigen3, version 3.4.0
+[1.833s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.833s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.861s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.886s] -- Checking for module 'flann'
+[1.928s] --   Found flann, version 1.9.1
+[1.979s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.979s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.039s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.049s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.292s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.292s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.298s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.315s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.342s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.385s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.584s] -- Found X11: /usr/include   
+[2.587s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.742s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.742s] -- Looking for gethostbyname
+[2.850s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '-2': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver

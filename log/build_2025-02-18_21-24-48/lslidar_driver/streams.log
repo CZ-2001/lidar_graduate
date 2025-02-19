@@ -1,0 +1,191 @@
+[0.025s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.326s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.496s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.670s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[1.000s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.004s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.206s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.409s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.416s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.426s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.512s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.515s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.816s] -- Found Threads: TRUE  
+[1.910s] -- Checking for module 'eigen3'
+[1.935s] --   Found eigen3, version 3.4.0
+[2.024s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.024s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.053s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.085s] -- Checking for module 'flann'
+[2.116s] --   Found flann, version 1.9.1
+[2.206s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.206s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.248s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.258s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.505s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.505s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.509s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.521s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.536s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.549s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.711s] -- Found X11: /usr/include   
+[2.711s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.829s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.829s] -- Looking for gethostbyname
+[2.969s] -- Looking for gethostbyname - found
+[2.969s] -- Looking for connect
+[3.109s] -- Looking for connect - found
+[3.109s] -- Looking for remove
+[3.247s] -- Looking for remove - found
+[3.248s] -- Looking for shmat
+[3.356s] -- Looking for shmat - found
+[3.356s] -- Looking for IceConnectionNumber in ICE
+[3.480s] -- Looking for IceConnectionNumber in ICE - found
+[3.636s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.639s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.642s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.644s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.715s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.725s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.728s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.738s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.914s] -- Checking for module 'libusb-1.0'
+[3.942s] --   Found libusb-1.0, version 1.0.25
+[4.017s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.019s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.020s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.160s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.160s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.161s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.356s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.367s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.378s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.598s] -- Found Qhull version 8.0.2
+[4.812s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.019s] -- looking for PCL_COMMON
+[5.019s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.020s] -- looking for PCL_KDTREE
+[5.021s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.021s] -- looking for PCL_OCTREE
+[5.021s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.021s] -- looking for PCL_SEARCH
+[5.022s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.023s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.024s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.024s] -- looking for PCL_FILTERS
+[5.025s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.026s] -- looking for PCL_2D
+[5.026s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.026s] -- looking for PCL_GEOMETRY
+[5.027s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.027s] -- looking for PCL_IO
+[5.028s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.028s] -- looking for PCL_FEATURES
+[5.030s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.030s] -- looking for PCL_ML
+[5.031s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.031s] -- looking for PCL_SEGMENTATION
+[5.033s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.033s] -- looking for PCL_VISUALIZATION
+[5.034s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.034s] -- looking for PCL_SURFACE
+[5.035s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.036s] -- looking for PCL_REGISTRATION
+[5.037s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.037s] -- looking for PCL_KEYPOINTS
+[5.038s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.039s] -- looking for PCL_TRACKING
+[5.040s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.040s] -- looking for PCL_RECOGNITION
+[5.041s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.041s] -- looking for PCL_STEREO
+[5.043s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.043s] -- looking for PCL_APPS
+[5.044s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.045s] -- looking for PCL_IN_HAND_SCANNER
+[5.045s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.045s] -- looking for PCL_MODELER
+[5.046s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.046s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.046s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.047s] -- looking for PCL_OUTOFCORE
+[5.048s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.048s] -- looking for PCL_PEOPLE
+[5.049s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.052s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[5.057s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.098s] -- Found lslidar_msgs: 1.2.0 (/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[5.120s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.146s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.323s] -- Configuring done
+[5.509s] -- Generating done
+[5.526s] -- Build files have been written to: /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver
+[5.567s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver
+[5.569s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver -- -j12 -l12
+[5.667s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[5.671s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[5.671s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[5.671s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[28.645s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[30.939s] [100%] Built target lslidar_driver_node
+[30.961s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver -- -j12 -l12
+[30.964s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver
+[30.979s] -- Install configuration: ""
+[30.980s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch
+[30.980s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[30.980s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[30.981s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params
+[30.982s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[30.982s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[30.983s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[30.984s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[30.984s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[30.985s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[30.985s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[30.985s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[30.986s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[30.986s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[30.987s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/rviz
+[30.987s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[30.988s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[30.993s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[30.993s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[30.994s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.dsv
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[30.995s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.996s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.996s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[30.996s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[30.996s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.xml
+[31.000s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/lslidar_driver

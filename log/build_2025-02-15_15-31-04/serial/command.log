@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/serial': /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/serial
-Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/serial' returned '1': /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/serial

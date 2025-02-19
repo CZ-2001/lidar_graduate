@@ -1,0 +1,219 @@
+[0.021s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot -- -j12 -l12
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target turn_on_wheeltec_robot__rosidl_generator_c[0m
+[0.126s] [  2%] Built target turn_on_wheeltec_robot__cpp
+[0.137s] [  5%] [32m[1mLinking C shared library libturn_on_wheeltec_robot__rosidl_generator_c.so[0m
+[0.140s] [  8%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_node.dir/src/wheeltec_robot.cpp.o[0m
+[0.142s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.146s] [ 11%] Built target ament_cmake_python_copy_turn_on_wheeltec_robot
+[0.149s] [ 14%] [32mBuilding CXX object CMakeFiles/wheeltec_robot_node.dir/src/Quaternion_Solution.cpp.o[0m
+[0.150s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.150s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.249s] [ 26%] Built target turn_on_wheeltec_robot__rosidl_generator_c
+[0.265s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.265s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.281s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.442s] [ 38%] [32mBuilding CXX object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turn_on_wheeltec_robot/msg/position__type_support.cpp.o[0m
+[0.496s] [ 41%] [32mBuilding CXX object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turn_on_wheeltec_robot/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[0.516s] [ 44%] [32mBuilding CXX object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turn_on_wheeltec_robot/msg/detail/position__type_support.cpp.o[0m
+[0.532s] running egg_info
+[0.533s] writing turn_on_wheeltec_robot.egg-info/PKG-INFO
+[0.533s] writing dependency_links to turn_on_wheeltec_robot.egg-info/dependency_links.txt
+[0.537s] writing top-level names to turn_on_wheeltec_robot.egg-info/top_level.txt
+[0.537s] reading manifest file 'turn_on_wheeltec_robot.egg-info/SOURCES.txt'
+[0.537s] writing manifest file 'turn_on_wheeltec_robot.egg-info/SOURCES.txt'
+[0.593s] [ 47%] [32mBuilding CXX object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_c.dir/rosidl_typesupport_c/turn_on_wheeltec_robot/msg/position__type_support.cpp.o[0m
+[0.598s] [ 50%] [32mBuilding C object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turn_on_wheeltec_robot/msg/detail/position__type_support.c.o[0m
+[0.620s] [ 50%] Built target ament_cmake_python_build_turn_on_wheeltec_robot_egg
+[0.636s] [ 52%] [32mBuilding CXX object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turn_on_wheeltec_robot/msg/detail/position__type_support_c.cpp.o[0m
+[0.646s] [ 55%] [32m[1mLinking CXX shared library libturn_on_wheeltec_robot__rosidl_typesupport_c.so[0m
+[0.659s] [ 58%] [32m[1mLinking C shared library libturn_on_wheeltec_robot__rosidl_typesupport_introspection_c.so[0m
+[0.690s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:734:70:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[0.690s]   734 |   ("/set_charge",std::bind(&turn_on_robot::Set_Charge_Callback,this, \
+[0.690s]       |                                                                       
+[0.727s] [ 58%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_c
+[0.739s] [ 58%] Built target turn_on_wheeltec_robot__rosidl_typesupport_c
+[0.850s] [ 61%] [32m[1mLinking CXX shared library libturn_on_wheeltec_robot__rosidl_typesupport_cpp.so[0m
+[0.946s] [ 61%] Built target turn_on_wheeltec_robot__rosidl_typesupport_cpp
+[1.049s] [ 64%] [32m[1mLinking CXX shared library libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.102s] [ 67%] [32m[1mLinking CXX shared library libturn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.so[0m
+[1.118s] [ 70%] [32m[1mLinking CXX shared library libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c.so[0m
+[1.195s] [ 70%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp
+[1.196s] [ 70%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp
+[1.246s] [ 70%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c
+[1.290s] [ 70%] Built target turn_on_wheeltec_robot
+[1.333s] [ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.695s] [ 73%] Built target turn_on_wheeltec_robot__py
+[1.736s] [ 76%] [32mBuilding C object CMakeFiles/turn_on_wheeltec_robot__rosidl_generator_py.dir/rosidl_generator_py/turn_on_wheeltec_robot/msg/_position_s.c.o[0m
+[1.907s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/turn_on_wheeltec_robot/libturn_on_wheeltec_robot__rosidl_generator_py.so[0m
+[1.974s] [ 79%] Built target turn_on_wheeltec_robot__rosidl_generator_py
+[2.013s] [ 82%] [32mBuilding C object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.035s] [ 85%] [32mBuilding C object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.042s] [ 88%] [32mBuilding C object CMakeFiles/turn_on_wheeltec_robot__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_c.c.o[0m
+[2.163s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.167s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.192s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.230s] [ 97%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext
+[2.237s] [ 97%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext
+[2.250s] [ 97%] Built target turn_on_wheeltec_robot__rosidl_typesupport_c__pyext
+[4.381s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:[m[K In member function ‘[01m[Kbool turn_on_robot::Get_Sensor_Data()[m[K’:
+[4.381s] [01m[K/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:381:50:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KReceive_Data_Tr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[4.381s]   381 |   uint8_t Receive_Data_Pr[RECEIVE_DATA_SIZE]={0},[01;35m[KReceive_Data_Tr[m[K[temp]={0}; //Temporary variable to save the data of the lower machine //临时变量，保存下位机数据
+[4.382s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[20.342s] [100%] [32m[1mLinking CXX executable wheeltec_robot_node[0m
+[21.575s] [100%] Built target wheeltec_robot_node
+[21.603s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot -- -j12 -l12
+[21.606s] Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot
+[21.615s] -- Install configuration: ""
+[21.616s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/ament_index/resource_index/rosidl_interfaces/turn_on_wheeltec_robot
+[21.616s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.616s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_generator_c__visibility_control.h
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/position.h
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__struct.h
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.h
+[21.617s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__functions.c
+[21.618s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__functions.h
+[21.618s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/library_path.sh
+[21.618s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/library_path.dsv
+[21.618s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_c.so
+[21.618s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_c.so" to ""
+[21.619s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.619s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.619s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.619s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c.so
+[21.620s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c.so" to ""
+[21.620s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.620s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.620s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__traits.hpp
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__builder.hpp
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__struct.hpp
+[21.620s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.hpp
+[21.621s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/position.hpp
+[21.621s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_generator_cpp__visibility_control.hpp
+[21.621s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.621s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.621s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.621s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/dds_fastrtps
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.so
+[21.622s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.622s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.622s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.622s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.c
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_introspection_c.h
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_c.so
+[21.622s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_c.so" to ""
+[21.622s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_c.so
+[21.622s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_c.so" to ""
+[21.622s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[21.623s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[21.623s] -- Up-to-date: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.cpp
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.so
+[21.623s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.so" to ""
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_cpp.so
+[21.623s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_cpp.so" to ""
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/pythonpath.sh
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/pythonpath.dsv
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/dependency_links.txt
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/PKG-INFO
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/SOURCES.txt
+[21.623s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/top_level.txt
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/__init__.py
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_c.c
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_introspection_c.c
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/__init__.py
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/_position.py
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/_position_s.c
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/libturn_on_wheeltec_robot__rosidl_generator_py.so
+[21.624s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.678s] Listing '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot'...
+[21.678s] Compiling '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/__init__.py'...
+[21.678s] Listing '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg'...
+[21.678s] Compiling '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/__init__.py'...
+[21.678s] Compiling '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/_position.py'...
+[21.682s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.683s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.683s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.683s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.684s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.684s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.684s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_py.so
+[21.684s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_py.so" to ""
+[21.685s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/msg/Position.idl
+[21.685s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/msg/Position.msg
+[21.685s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/turn_on_wheeltec_robot/wheeltec_robot_node
+[21.691s] -- Set runtime path of "/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib/turn_on_wheeltec_robot/wheeltec_robot_node" to ""
+[21.691s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/robot_mode_description.launch.py
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_sensors.launch.py
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_camera.launch.py
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/turn_on_wheeltec_robot.launch.py
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_lidar.launch.py
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/__pycache__
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/__pycache__/testtwo.launch.cpython-38.pyc
+[21.692s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_ekf.launch.py
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/include
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/include/turn_on_wheeltec_robot_h30imu.launch.py
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/include/base_serial_h30imu.launch.py
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/robot_mode_description_minibot.launch.py
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/base_serial.launch.py
+[21.693s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config
+[21.694s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/ekf_carto.yaml
+[21.694s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/camera_info.yaml
+[21.695s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/ekf.yaml
+[21.695s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/imu.yaml
+[21.696s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/ament_index/resource_index/package_run_dependencies/turn_on_wheeltec_robot
+[21.696s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/ament_index/resource_index/parent_prefix_path/turn_on_wheeltec_robot
+[21.696s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/ament_prefix_path.sh
+[21.697s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/ament_prefix_path.dsv
+[21.697s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/path.sh
+[21.697s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/path.dsv
+[21.697s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.bash
+[21.697s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.sh
+[21.698s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.zsh
+[21.698s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.dsv
+[21.698s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.dsv
+[21.698s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/ament_index/resource_index/packages/turn_on_wheeltec_robot
+[21.699s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cExport.cmake
+[21.699s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cExport-noconfig.cmake
+[21.699s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cExport.cmake
+[21.699s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[21.700s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cppExport.cmake
+[21.700s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.700s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[21.700s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cExport.cmake
+[21.701s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.701s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cExport.cmake
+[21.701s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cExport-noconfig.cmake
+[21.701s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cppExport.cmake
+[21.702s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.702s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cppExport.cmake
+[21.702s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cppExport-noconfig.cmake
+[21.702s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_pyExport.cmake
+[21.703s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_pyExport-noconfig.cmake
+[21.703s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake-extras.cmake
+[21.703s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.703s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[21.703s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_targets-extras.cmake
+[21.704s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.704s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.704s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.704s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robotConfig.cmake
+[21.705s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robotConfig-version.cmake
+[21.705s] -- Installing: /home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.xml
+[21.710s] Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot

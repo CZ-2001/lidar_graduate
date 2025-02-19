@@ -1,0 +1,497 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75efdef1c280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75efdf0d9060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75efdf0d9060>>)
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.243s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/my_n10_topic/workspace'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turn_on_wheeltec_robot' with type 'ros.ament_cmake' and name 'turn_on_wheeltec_robot'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_msg' with type 'ros.ament_cmake' and name 'wheeltec_robot_msg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_slam/wheeltec_slam_toolbox) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_slam/wheeltec_slam_toolbox' with type 'ros.ament_cmake' and name 'wheeltec_slam_toolbox'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_urdf/wheeltec_robot_urdf' with type 'ros.ament_cmake' and name 'wheeltec_robot_urdf'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.297s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ubuntu/my_n10_topic/workspace/install
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_robot_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_msg', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_robot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_urdf/wheeltec_robot_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_slam/wheeltec_slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver', 'symlink_install': False, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'turn_on_wheeltec_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot', 'merge_install': False, 'path': '/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot', 'symlink_install': False, 'test_result_base': None}
+[0.349s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.351s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs' with build type 'ament_cmake'
+[0.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs'
+[0.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_msg' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_msg'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_urdf/wheeltec_robot_urdf' with build type 'ament_cmake'
+[0.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_urdf/wheeltec_robot_urdf'
+[0.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_slam/wheeltec_slam_toolbox' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_slam/wheeltec_slam_toolbox'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_urdf/wheeltec_robot_urdf -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_slam/wheeltec_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_urdf/wheeltec_robot_urdf -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf -- -j12 -l12
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf -- -j12 -l12
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_slam/wheeltec_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox -- -j12 -l12
+[3.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg
+[3.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg -- -j12 -l12
+[3.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs
+[3.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs -- -j12 -l12
+[6.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[6.740s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' for CMake module files
+[6.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_urdf
+[6.742s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' for CMake config files
+[6.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[6.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[6.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[6.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/bin'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/bin'
+[6.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[6.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[6.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[6.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[6.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[6.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[6.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[6.751s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' for CMake module files
+[6.751s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf' for CMake config files
+[6.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[6.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[6.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[6.754s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/bin'
+[6.755s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[6.755s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[6.755s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/bin'
+[6.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[6.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[6.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[6.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[6.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[6.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[7.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg -- -j12 -l12
+[7.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg
+[7.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_msg)
+[7.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_robot_msg
+[7.708s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' for CMake module files
+[7.709s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' for CMake config files
+[7.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'cmake_prefix_path')
+[7.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.ps1'
+[7.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.dsv'
+[7.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.sh'
+[7.712s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib'
+[7.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'ld_library_path_lib')
+[7.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.ps1'
+[7.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.dsv'
+[7.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.sh'
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/bin'
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib/pkgconfig/wheeltec_robot_msg.pc'
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib/python3.10/site-packages'
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/bin'
+[7.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.ps1'
+[7.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv'
+[7.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.sh'
+[7.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.bash'
+[7.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.zsh'
+[7.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/colcon-core/packages/wheeltec_robot_msg)
+[7.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_msg)
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' for CMake module files
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg' for CMake config files
+[7.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'cmake_prefix_path')
+[7.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.ps1'
+[7.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.dsv'
+[7.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.sh'
+[7.723s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib'
+[7.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'ld_library_path_lib')
+[7.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.ps1'
+[7.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.dsv'
+[7.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.sh'
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/bin'
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib/pkgconfig/wheeltec_robot_msg.pc'
+[7.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib/python3.10/site-packages'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/bin'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.ps1'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.sh'
+[7.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.bash'
+[7.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.zsh'
+[7.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/share/colcon-core/packages/wheeltec_robot_msg)
+[7.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot' with build type 'ament_cmake'
+[7.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot'
+[7.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot
+[8.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs -- -j12 -l12
+[8.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs
+[8.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[8.899s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' for CMake module files
+[8.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/lslidar_msgs
+[8.900s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' for CMake config files
+[8.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[8.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[8.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[8.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[8.902s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib'
+[8.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[8.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[8.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[8.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[8.903s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/bin'
+[8.904s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[8.904s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/python3.10/site-packages'
+[8.904s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/bin'
+[8.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[8.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[8.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[8.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[8.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[8.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[8.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[8.910s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' for CMake module files
+[8.910s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs' for CMake config files
+[8.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[8.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[8.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib'
+[8.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[8.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[8.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[8.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/bin'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib/python3.10/site-packages'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/bin'
+[8.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[8.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[8.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[8.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[8.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver' with build type 'ament_cmake'
+[8.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver'
+[8.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver
+[10.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox -- -j12 -l12
+[10.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox
+[10.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_slam_toolbox)
+[10.508s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' for CMake module files
+[10.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_n10_topic/workspace/build/wheeltec_slam_toolbox
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' for CMake config files
+[10.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_slam_toolbox', 'cmake_prefix_path')
+[10.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.ps1'
+[10.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.dsv'
+[10.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.sh'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/bin'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib/pkgconfig/wheeltec_slam_toolbox.pc'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib/python3.10/site-packages'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/bin'
+[10.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.ps1'
+[10.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.dsv'
+[10.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.sh'
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.bash'
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.zsh'
+[10.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/colcon-core/packages/wheeltec_slam_toolbox)
+[10.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_slam_toolbox)
+[10.518s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' for CMake module files
+[10.519s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox' for CMake config files
+[10.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_slam_toolbox', 'cmake_prefix_path')
+[10.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.ps1'
+[10.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.dsv'
+[10.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/hook/cmake_prefix_path.sh'
+[10.522s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib'
+[10.522s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/bin'
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib/pkgconfig/wheeltec_slam_toolbox.pc'
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/lib/python3.10/site-packages'
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/bin'
+[10.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.ps1'
+[10.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.dsv'
+[10.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.sh'
+[10.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.bash'
+[10.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/wheeltec_slam_toolbox/package.zsh'
+[10.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox/share/colcon-core/packages/wheeltec_slam_toolbox)
+[11.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot
+[11.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/my_n10_topic/workspace/build/turn_on_wheeltec_robot -- -j12 -l12
+[11.759s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[11.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[11.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver' for CMake module files
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver' for CMake config files
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/bin'
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/lib/python3.10/site-packages'
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/bin'
+[11.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[11.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[11.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.sh'
+[11.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_n10_topic/workspace/build/lslidar_driver' returned '-2': CMAKE_PREFIX_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_slam_toolbox:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_cartographer:/home/ubuntu/my_n10_topic/workspace/install/slam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_urdf:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg:/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/home/ubuntu/lidar_ros2/lidar_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/my_n10_topic/workspace/install/lslidar_msgs/lib:/home/ubuntu/my_n10_topic/workspace/install/openslam_gmapping/lib:/home/ubuntu/my_n10_topic/workspace/install/turn_on_wheeltec_robot/lib:/home/ubuntu/my_n10_topic/workspace/install/wheeltec_robot_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/my_n10_topic/workspace/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver
+[11.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.bash'
+[11.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[11.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_n10_topic/workspace/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[11.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[11.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.804s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.813s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.841s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_n10_topic/workspace/install/local_setup.ps1'
+[11.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/my_n10_topic/workspace/install/_local_setup_util_ps1.py'
+[11.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_n10_topic/workspace/install/setup.ps1'
+[11.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_n10_topic/workspace/install/local_setup.sh'
+[11.848s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/my_n10_topic/workspace/install/_local_setup_util_sh.py'
+[11.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_n10_topic/workspace/install/setup.sh'
+[11.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_n10_topic/workspace/install/local_setup.bash'
+[11.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_n10_topic/workspace/install/setup.bash'
+[11.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_n10_topic/workspace/install/local_setup.zsh'
+[11.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_n10_topic/workspace/install/setup.zsh'
